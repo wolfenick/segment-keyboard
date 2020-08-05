@@ -825,28 +825,6 @@ F 3 "" H 2100 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-parts:74HC238 U3
-U 1 1 5F1E5469
-P 4500 5450
-F 0 "U3" H 4500 5500 50  0000 C CNN
-F 1 "74HC238" H 4750 4950 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 4500 5450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc237.pdf" H 4500 5450 50  0001 C CNN
-	1    4500 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard-parts:74HC238 U2
-U 1 1 5F1E2086
-P 2100 5400
-F 0 "U2" H 2100 5450 50  0000 C CNN
-F 1 "74HC238" H 2350 4900 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 2100 5400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc237.pdf" H 2100 5400 50  0001 C CNN
-	1    2100 5400
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR028
 U 1 1 5F22179F
 P 1450 8100
@@ -1125,41 +1103,11 @@ F 3 "~" H 9050 3200 50  0001 C CNN
 	1    9050 3200
 	0    -1   -1   0   
 $EndComp
-Connection ~ 9450 3750
-Wire Wire Line
-	9050 4050 9050 4100
-$Comp
-L Switch:SW_Push SW10
-U 1 1 5F53AABE
-P 9250 3750
-F 0 "SW10" H 9250 4035 50  0000 C CNN
-F 1 "SW_Push" H 9250 3944 50  0000 C CNN
-F 2 "" H 9250 3950 50  0001 C CNN
-F 3 "~" H 9250 3950 50  0001 C CNN
-	1    9250 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D13
-U 1 1 5F53AAC4
-P 9050 3900
-F 0 "D13" V 9096 3820 50  0000 R CNN
-F 1 "1N4148" V 9005 3820 50  0000 R CNN
-F 2 "" H 9050 3900 50  0001 C CNN
-F 3 "~" H 9050 3900 50  0001 C CNN
-	1    9050 3900
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9450 3050 9450 3750
 Wire Wire Line
 	9450 2350 9450 3050
-Wire Wire Line
-	9450 3750 9450 4450
 Text Label 9450 1350 1    50   ~ 0
 COL1
 Connection ~ 9050 4800
-Connection ~ 9050 4100
 Connection ~ 9050 3400
 Connection ~ 9050 2700
 Connection ~ 9050 2000
@@ -1170,8 +1118,6 @@ Wire Wire Line
 	9450 1100 9450 1650
 Wire Wire Line
 	8550 4800 9050 4800
-Wire Wire Line
-	8550 4100 9050 4100
 Wire Wire Line
 	8550 3400 9050 3400
 Wire Wire Line
@@ -1345,30 +1291,6 @@ F 3 "~" H 10050 1800 50  0001 C CNN
 	1    10050 1800
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	10050 4750 10050 4800
-$Comp
-L Switch:SW_Push SW21
-U 1 1 5F542CA7
-P 10250 4450
-F 0 "SW21" H 10250 4735 50  0000 C CNN
-F 1 "SW_Push" H 10250 4644 50  0000 C CNN
-F 2 "" H 10250 4650 50  0001 C CNN
-F 3 "~" H 10250 4650 50  0001 C CNN
-	1    10250 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D24
-U 1 1 5F542CAD
-P 10050 4600
-F 0 "D24" V 10096 4520 50  0000 R CNN
-F 1 "1N4148" V 10005 4520 50  0000 R CNN
-F 2 "" H 10050 4600 50  0001 C CNN
-F 3 "~" H 10050 4600 50  0001 C CNN
-	1    10050 4600
-	0    -1   -1   0   
-$EndComp
 Connection ~ 10450 2350
 Wire Wire Line
 	10050 2650 10050 2700
@@ -1421,7 +1343,6 @@ F 3 "~" H 10050 3200 50  0001 C CNN
 	1    10050 3200
 	0    -1   -1   0   
 $EndComp
-Connection ~ 10450 3750
 Wire Wire Line
 	10050 4050 10050 4100
 $Comp
@@ -1450,11 +1371,8 @@ Wire Wire Line
 	10450 3050 10450 3750
 Wire Wire Line
 	10450 2350 10450 3050
-Wire Wire Line
-	10450 3750 10450 4450
 Text Label 10450 1350 1    50   ~ 0
 COL3
-Connection ~ 10050 4800
 Connection ~ 10050 4100
 Connection ~ 10050 3400
 Connection ~ 10050 2700
@@ -1465,8 +1383,6 @@ Entry Wire Line
 Wire Wire Line
 	10450 1100 10450 1650
 Wire Wire Line
-	9550 4800 10050 4800
-Wire Wire Line
 	9550 4100 10050 4100
 Wire Wire Line
 	9550 3400 10050 3400
@@ -1476,8 +1392,6 @@ Wire Wire Line
 	9550 2000 10050 2000
 Wire Wire Line
 	9050 4800 9550 4800
-Wire Wire Line
-	9050 4100 9550 4100
 Wire Wire Line
 	9050 3400 9550 3400
 Wire Wire Line
@@ -1651,30 +1565,6 @@ F 3 "~" H 11050 1800 50  0001 C CNN
 	1    11050 1800
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	11050 4750 11050 4800
-$Comp
-L Switch:SW_Push SW31
-U 1 1 5F553ED0
-P 11250 4450
-F 0 "SW31" H 11250 4735 50  0000 C CNN
-F 1 "SW_Push" H 11250 4644 50  0000 C CNN
-F 2 "" H 11250 4650 50  0001 C CNN
-F 3 "~" H 11250 4650 50  0001 C CNN
-	1    11250 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D34
-U 1 1 5F553ED6
-P 11050 4600
-F 0 "D34" V 11096 4520 50  0000 R CNN
-F 1 "1N4148" V 11005 4520 50  0000 R CNN
-F 2 "" H 11050 4600 50  0001 C CNN
-F 3 "~" H 11050 4600 50  0001 C CNN
-	1    11050 4600
-	0    -1   -1   0   
-$EndComp
 Connection ~ 11450 2350
 Wire Wire Line
 	11050 2650 11050 2700
@@ -1727,7 +1617,6 @@ F 3 "~" H 11050 3200 50  0001 C CNN
 	1    11050 3200
 	0    -1   -1   0   
 $EndComp
-Connection ~ 11450 3750
 Wire Wire Line
 	11050 4050 11050 4100
 $Comp
@@ -1756,11 +1645,8 @@ Wire Wire Line
 	11450 3050 11450 3750
 Wire Wire Line
 	11450 2350 11450 3050
-Wire Wire Line
-	11450 3750 11450 4450
 Text Label 11450 1350 1    50   ~ 0
 COL5
-Connection ~ 11050 4800
 Connection ~ 11050 4100
 Connection ~ 11050 3400
 Connection ~ 11050 2700
@@ -1770,8 +1656,6 @@ Entry Wire Line
 	11350 1000 11450 1100
 Wire Wire Line
 	11450 1100 11450 1650
-Wire Wire Line
-	10550 4800 11050 4800
 Wire Wire Line
 	10550 4100 11050 4100
 Wire Wire Line
@@ -1947,30 +1831,6 @@ F 3 "~" H 12050 1800 50  0001 C CNN
 	1    12050 1800
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	12050 4750 12050 4800
-$Comp
-L Switch:SW_Push SW41
-U 1 1 5F553F77
-P 12250 4450
-F 0 "SW41" H 12250 4735 50  0000 C CNN
-F 1 "SW_Push" H 12250 4644 50  0000 C CNN
-F 2 "" H 12250 4650 50  0001 C CNN
-F 3 "~" H 12250 4650 50  0001 C CNN
-	1    12250 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D44
-U 1 1 5F553F7D
-P 12050 4600
-F 0 "D44" V 12096 4520 50  0000 R CNN
-F 1 "1N4148" V 12005 4520 50  0000 R CNN
-F 2 "" H 12050 4600 50  0001 C CNN
-F 3 "~" H 12050 4600 50  0001 C CNN
-	1    12050 4600
-	0    -1   -1   0   
-$EndComp
 Connection ~ 12450 2350
 Wire Wire Line
 	12050 2650 12050 2700
@@ -2023,7 +1883,6 @@ F 3 "~" H 12050 3200 50  0001 C CNN
 	1    12050 3200
 	0    -1   -1   0   
 $EndComp
-Connection ~ 12450 3750
 Wire Wire Line
 	12050 4050 12050 4100
 $Comp
@@ -2052,11 +1911,8 @@ Wire Wire Line
 	12450 3050 12450 3750
 Wire Wire Line
 	12450 2350 12450 3050
-Wire Wire Line
-	12450 3750 12450 4450
 Text Label 12450 1350 1    50   ~ 0
 COL7
-Connection ~ 12050 4800
 Connection ~ 12050 4100
 Connection ~ 12050 3400
 Connection ~ 12050 2700
@@ -2067,8 +1923,6 @@ Entry Wire Line
 Wire Wire Line
 	12450 1100 12450 1650
 Wire Wire Line
-	11550 4800 12050 4800
-Wire Wire Line
 	11550 4100 12050 4100
 Wire Wire Line
 	11550 3400 12050 3400
@@ -2077,8 +1931,6 @@ Wire Wire Line
 Wire Wire Line
 	11550 2000 12050 2000
 Wire Wire Line
-	11050 4800 11550 4800
-Wire Wire Line
 	11050 4100 11550 4100
 Wire Wire Line
 	11050 3400 11550 3400
@@ -2086,8 +1938,6 @@ Wire Wire Line
 	11050 2700 11550 2700
 Wire Wire Line
 	11050 2000 11550 2000
-Wire Wire Line
-	10050 4800 10550 4800
 Wire Wire Line
 	10050 4100 10550 4100
 Wire Wire Line
@@ -2263,30 +2113,6 @@ F 3 "~" H 13050 1800 50  0001 C CNN
 	1    13050 1800
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	13050 4750 13050 4800
-$Comp
-L Switch:SW_Push SW51
-U 1 1 5F56774B
-P 13250 4450
-F 0 "SW51" H 13250 4735 50  0000 C CNN
-F 1 "SW_Push" H 13250 4644 50  0000 C CNN
-F 2 "" H 13250 4650 50  0001 C CNN
-F 3 "~" H 13250 4650 50  0001 C CNN
-	1    13250 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D54
-U 1 1 5F567751
-P 13050 4600
-F 0 "D54" V 13096 4520 50  0000 R CNN
-F 1 "1N4148" V 13005 4520 50  0000 R CNN
-F 2 "" H 13050 4600 50  0001 C CNN
-F 3 "~" H 13050 4600 50  0001 C CNN
-	1    13050 4600
-	0    -1   -1   0   
-$EndComp
 Connection ~ 13450 2350
 Wire Wire Line
 	13050 2650 13050 2700
@@ -2339,7 +2165,6 @@ F 3 "~" H 13050 3200 50  0001 C CNN
 	1    13050 3200
 	0    -1   -1   0   
 $EndComp
-Connection ~ 13450 3750
 Wire Wire Line
 	13050 4050 13050 4100
 $Comp
@@ -2368,11 +2193,8 @@ Wire Wire Line
 	13450 3050 13450 3750
 Wire Wire Line
 	13450 2350 13450 3050
-Wire Wire Line
-	13450 3750 13450 4450
 Text Label 13450 1350 1    50   ~ 0
 COL9
-Connection ~ 13050 4800
 Connection ~ 13050 4100
 Connection ~ 13050 3400
 Connection ~ 13050 2700
@@ -2382,8 +2204,6 @@ Entry Wire Line
 	13350 1000 13450 1100
 Wire Wire Line
 	13450 1100 13450 1650
-Wire Wire Line
-	12550 4800 13050 4800
 Wire Wire Line
 	12550 4100 13050 4100
 Wire Wire Line
@@ -2689,8 +2509,6 @@ Wire Wire Line
 Wire Wire Line
 	13550 2000 14050 2000
 Wire Wire Line
-	13050 4800 13550 4800
-Wire Wire Line
 	13050 4100 13550 4100
 Wire Wire Line
 	13050 3400 13550 3400
@@ -2698,8 +2516,6 @@ Wire Wire Line
 	13050 2700 13550 2700
 Wire Wire Line
 	13050 2000 13550 2000
-Wire Wire Line
-	12050 4800 12550 4800
 Wire Wire Line
 	12050 4100 12550 4100
 Wire Wire Line
@@ -3094,6 +2910,28 @@ Text GLabel 6200 2950 2    50   Input ~ 0
 ROW3
 Text GLabel 6200 3050 2    50   Input ~ 0
 ROW4
+$Comp
+L Segment_Parts:74HC238 U?
+U 1 1 5F2E3F93
+P 4500 5450
+F 0 "U?" H 4500 5450 50  0000 C CNN
+F 1 "74HC238" H 4750 4950 50  0000 C CNN
+F 2 "" H 4500 5450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc237.pdf" H 4500 5450 50  0001 C CNN
+	1    4500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Segment_Parts:74HC238 U?
+U 1 1 5F2E78E3
+P 2100 5400
+F 0 "U?" H 2100 5400 50  0000 C CNN
+F 1 "74HC238" H 2350 4900 50  0000 C CNN
+F 2 "" H 2100 5400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc237.pdf" H 2100 5400 50  0001 C CNN
+	1    2100 5400
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	3700 4850 3700 5650
 Wire Bus Line
@@ -3106,4 +2944,16 @@ Wire Bus Line
 	2800 5100 2800 5900
 Wire Bus Line
 	8750 1000 15350 1000
+Wire Wire Line
+	9450 3050 9450 4450
+Wire Wire Line
+	8550 4100 9550 4100
+Wire Wire Line
+	9550 4800 10550 4800
+Wire Wire Line
+	10550 4800 11550 4800
+Wire Wire Line
+	11550 4800 12550 4800
+Wire Wire Line
+	12550 4800 13550 4800
 $EndSCHEMATC
