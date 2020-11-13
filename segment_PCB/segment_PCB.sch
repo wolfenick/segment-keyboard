@@ -532,7 +532,7 @@ Text GLabel 3700 4850 1    50   Input ~ 0
 SBUS
 Text GLabel 1400 4800 1    50   Input ~ 0
 SBUS
-Text GLabel 5250 5750 3    50   Input ~ 0
+Text GLabel 5250 6050 3    50   Input ~ 0
 CBUS
 Wire Wire Line
 	4500 4800 5400 4800
@@ -2661,8 +2661,6 @@ Text GLabel 8500 4100 0    50   Input ~ 0
 ROW3
 Text GLabel 8500 4800 0    50   Input ~ 0
 ROW4
-NoConn ~ 4900 5650
-NoConn ~ 4900 5750
 $Comp
 L Device:LED D4
 U 1 1 6002CC2E
@@ -2721,17 +2719,6 @@ Text GLabel 6200 3050 2    50   Input ~ 0
 ROW4
 $Comp
 L Segment_Parts:74HC238 U?
-U 1 1 5F2E3F93
-P 4500 5450
-F 0 "U?" H 4500 5450 50  0000 C CNN
-F 1 "74HC238" H 4750 4950 50  0000 C CNN
-F 2 "" H 4500 5450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd74hc237.pdf" H 4500 5450 50  0001 C CNN
-	1    4500 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Segment_Parts:74HC238 U?
 U 1 1 5F2E78E3
 P 2100 5400
 F 0 "U?" H 2100 5400 50  0000 C CNN
@@ -2741,18 +2728,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd74hc237.pdf" H 2100 5400 50  0001 C CNN
 	1    2100 5400
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	3700 4850 3700 5650
-Wire Bus Line
-	1400 4800 1400 5400
-Wire Bus Line
-	6550 1650 6550 2050
-Wire Bus Line
-	5250 5150 5250 5750
-Wire Bus Line
-	2800 5100 2800 5900
-Wire Bus Line
-	8750 1000 15350 1000
 Wire Wire Line
 	9450 3050 9450 4450
 Wire Wire Line
@@ -2806,4 +2781,181 @@ Wire Wire Line
 	13550 4100 14550 4100
 Wire Wire Line
 	15450 2350 15450 4450
+Text GLabel 5850 4850 1    50   Input ~ 0
+SBUS
+Text GLabel 7400 5750 3    50   Input ~ 0
+CBUS
+Wire Wire Line
+	6650 4800 7550 4800
+Wire Wire Line
+	7550 4800 7550 4850
+Entry Wire Line
+	7300 5550 7400 5650
+Entry Wire Line
+	7300 5450 7400 5550
+Entry Wire Line
+	7300 5350 7400 5450
+Entry Wire Line
+	7300 5250 7400 5350
+Entry Wire Line
+	7300 5150 7400 5250
+Entry Wire Line
+	7300 5050 7400 5150
+Wire Wire Line
+	7050 5550 7300 5550
+Wire Wire Line
+	7050 5450 7300 5450
+Wire Wire Line
+	7050 5350 7300 5350
+Wire Wire Line
+	7050 5250 7300 5250
+Wire Wire Line
+	7050 5150 7300 5150
+Wire Wire Line
+	7050 5050 7300 5050
+Text Label 7050 5550 0    50   ~ 0
+COL13
+Text Label 7050 5450 0    50   ~ 0
+COL12
+Text Label 7050 5350 0    50   ~ 0
+COL11
+Text Label 7050 5250 0    50   ~ 0
+COL10
+Text Label 7050 5150 0    50   ~ 0
+COL9
+Text Label 7050 5050 0    50   ~ 0
+COL8
+Wire Wire Line
+	5950 5250 6250 5250
+Wire Wire Line
+	5950 5150 6250 5150
+Wire Wire Line
+	5950 5050 6250 5050
+Entry Wire Line
+	5850 5150 5950 5250
+Entry Wire Line
+	5850 5050 5950 5150
+Entry Wire Line
+	5850 4950 5950 5050
+Entry Wire Line
+	5850 5650 5950 5750
+Wire Wire Line
+	5950 5750 6250 5750
+Connection ~ 6000 5650
+Wire Wire Line
+	6000 5550 6250 5550
+Wire Wire Line
+	6000 5650 6000 5550
+Wire Wire Line
+	6000 5650 6250 5650
+Wire Wire Line
+	6000 5950 6000 5650
+Text Label 6250 5750 2    50   ~ 0
+SEL3
+Text Label 6250 5250 2    50   ~ 0
+SEL2
+Text Label 6250 5150 2    50   ~ 0
+SEL1
+Text Label 6250 5050 2    50   ~ 0
+SEL0
+Connection ~ 6650 4800
+Wire Wire Line
+	6650 4850 6650 4800
+Wire Wire Line
+	6650 4800 6650 4750
+$Comp
+L power:GND #PWR?
+U 1 1 5FB14020
+P 7550 5150
+F 0 "#PWR?" H 7550 4900 50  0001 C CNN
+F 1 "GND" H 7555 4977 50  0000 C CNN
+F 2 "" H 7550 5150 50  0001 C CNN
+F 3 "" H 7550 5150 50  0001 C CNN
+	1    7550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB14026
+P 7550 5000
+F 0 "C?" H 7665 5046 50  0000 L CNN
+F 1 "100n" H 7665 4955 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7588 4850 50  0001 C CNN
+F 3 "~" H 7550 5000 50  0001 C CNN
+	1    7550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB1402C
+P 6000 5950
+F 0 "#PWR?" H 6000 5700 50  0001 C CNN
+F 1 "GND" H 6005 5777 50  0000 C CNN
+F 2 "" H 6000 5950 50  0001 C CNN
+F 3 "" H 6000 5950 50  0001 C CNN
+	1    6000 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5FB14032
+P 6650 4750
+F 0 "#PWR?" H 6650 4600 50  0001 C CNN
+F 1 "VCC" H 6665 4923 50  0000 C CNN
+F 2 "" H 6650 4750 50  0001 C CNN
+F 3 "" H 6650 4750 50  0001 C CNN
+	1    6650 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB14038
+P 6650 5950
+F 0 "#PWR?" H 6650 5700 50  0001 C CNN
+F 1 "GND" H 6655 5777 50  0000 C CNN
+F 2 "" H 6650 5950 50  0001 C CNN
+F 3 "" H 6650 5950 50  0001 C CNN
+	1    6650 5950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7050 5650
+NoConn ~ 7050 5750
+$Comp
+L Segment_Parts:74HC238 U?
+U 1 1 5FB14040
+P 6650 5450
+F 0 "U?" H 6650 5450 50  0000 C CNN
+F 1 "74HC238" H 6900 4950 50  0000 C CNN
+F 2 "" H 6650 5450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc237.pdf" H 6650 5450 50  0001 C CNN
+	1    6650 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Segment_Parts:74HC238 U?
+U 1 1 5F2E3F93
+P 4500 5450
+F 0 "U?" H 4500 5450 50  0000 C CNN
+F 1 "74HC238" H 4750 4950 50  0000 C CNN
+F 2 "" H 4500 5450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc237.pdf" H 4500 5450 50  0001 C CNN
+	1    4500 5450
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	3700 4850 3700 5650
+Wire Bus Line
+	1400 4800 1400 5400
+Wire Bus Line
+	6550 1650 6550 2050
+Wire Bus Line
+	5850 4850 5850 5650
+Wire Bus Line
+	5250 5150 5250 5750
+Wire Bus Line
+	7400 5150 7400 5750
+Wire Bus Line
+	2800 5100 2800 5900
+Wire Bus Line
+	8750 1000 15350 1000
 $EndSCHEMATC
