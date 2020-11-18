@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name keyboard-parts)(type Legacy)(uri ${KIPRJMOD}/keyboard-parts.lib)(options "")(descr ""))
   (lib (name Segment_Parts)(type Legacy)(uri ${KIPRJMOD}/Segment_Parts.lib)(options "")(descr ""))
 )
