@@ -492,7 +492,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 2200 3400 2500
 $Comp
-L Segment_Parts:74HC138 U4
+L Segment_Symbols:74HC138 U4
 U 1 1 5FB534DC
 P 4050 2000
 F 0 "U4" H 4050 2000 50  0000 C CNN
@@ -681,7 +681,7 @@ Wire Wire Line
 Wire Wire Line
 	13200 8600 13200 8500
 $Comp
-L Segment_Parts:74HC138 U?
+L Segment_Symbols:74HC138 U?
 U 1 1 5FBECC10
 P 1950 2000
 F 0 "U?" H 1950 2000 50  0000 C CNN
@@ -1084,7 +1084,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 4700 5350 4700
 $Comp
-L Segment_Parts:74HC365 U?
+L Segment_Symbols:74HC365 U?
 U 1 1 604297EC
 P 5800 5100
 F 0 "U?" H 5800 5100 50  0000 C CNN

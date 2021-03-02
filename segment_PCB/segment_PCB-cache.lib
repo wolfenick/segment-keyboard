@@ -236,11 +236,11 @@ X XTAL1/PB6 9 600 600 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Segment_Parts_74HC138
+# Segment_Symbols_74HC138
 #
-DEF Segment_Parts_74HC138 U 0 40 Y Y 1 F N
+DEF Segment_Symbols_74HC138 U 0 40 Y Y 1 F N
 F0 "U" -300 550 50 H V L BNN
-F1 "Segment_Parts_74HC138" 50 -450 50 H V L TNN
+F1 "Segment_Symbols_74HC138" 50 -450 50 H V L TNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -264,11 +264,11 @@ X ~Y6 9 400 -200 100 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# Segment_Parts_74HC365
+# Segment_Symbols_74HC365
 #
-DEF Segment_Parts_74HC365 U 0 40 Y Y 1 F N
+DEF Segment_Symbols_74HC365 U 0 40 Y Y 1 F N
 F0 "U" -300 550 50 H V L BNN
-F1 "Segment_Parts_74HC365" 50 -550 50 H V L TNN
+F1 "Segment_Symbols_74HC365" 50 -550 50 H V L TNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
