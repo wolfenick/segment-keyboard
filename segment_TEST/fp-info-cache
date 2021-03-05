@@ -1,4 +1,4 @@
-18792467630819288
+18798926614423288
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75149,7 +75149,21 @@ Segment_MX_1.00u_2.00u_PCB
 
 
 0
+4
 2
+Segment_Footprints
+Segment_MX_1.00u_2.25u_PCB
+
+
+0
+4
+2
+Segment_Footprints
+Segment_MX_1.00u_2.75u_PCB
+
+
+0
+4
 2
 Segment_Footprints
 Segment_MX_1.00u_PCB
@@ -75157,6 +75171,13 @@ Segment_MX_1.00u_PCB
 
 0
 2
+2
+Segment_Footprints
+Segment_MX_1.25u_1.75u_PCB
+
+
+0
+4
 2
 Segment_Footprints
 Segment_MX_1.25u_2.25u_PCB
@@ -75171,6 +75192,13 @@ Segment_MX_1.25u_PCB
 
 0
 2
+2
+Segment_Footprints
+Segment_MX_1.50u_ISO_PCB
+
+
+0
+4
 2
 Segment_Footprints
 Segment_MX_1.50u_PCB
