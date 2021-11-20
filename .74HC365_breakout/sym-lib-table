@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Segment_Symbols)(type Legacy)(uri /home/wolfenick/Documents/segment-keyboard/segment_PCB/Segment_Symbols.lib)(options "")(descr ""))
+)

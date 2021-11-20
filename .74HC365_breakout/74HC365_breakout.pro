@@ -1,4 +1,4 @@
-update=Wed 10 Mar 2021 21:11:41
+update=Thu 19 Aug 2021 13:17:04
 version=1
 last_client=kicad
 [general]
@@ -25,21 +25,20 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=segment_TEST.net
+LastNetListRead=74HC365_breakout.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
-ProhibitOverlappingCourtyards=0
+ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.2
 MinViaDiameter=0.4
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.381
-TrackWidth2=0.45
+TrackWidth1=0.4
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -238,32 +237,10 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.381
-TrackWidth=0.381
+Clearance=0.2
+TrackWidth=0.4
 ViaDiameter=0.8
 ViaDrill=0.4
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/1]
-Name=Rows
-Clearance=0.381
-TrackWidth=0.508
-ViaDiameter=0.8
-ViaDrill=0.4
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/2]
-Name=Through Hole
-Clearance=0.381
-TrackWidth=0.381
-ViaDiameter=1.2
-ViaDrill=0.6
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
