@@ -1282,7 +1282,7 @@ AR Path="/64E12EE7" Ref="SW43"  Part="1"
 AR Path="/61CA4571/64E12EE7" Ref="SW?"  Part="1" 
 F 0 "SW43" H 1750 3100 50  0000 C CNN
 F 1 "SW_Push_45deg" H 1550 3390 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 1550 3200 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_1.25u_2.25u_PCB" H 1550 3200 50  0001 C CNN
 F 3 "~" H 1550 3200 50  0001 C CNN
 	1    1550 3200
 	1    0    0    -1  
@@ -1295,7 +1295,7 @@ AR Path="/64E13B08" Ref="SW57"  Part="1"
 AR Path="/61CA4571/64E13B08" Ref="SW?"  Part="1" 
 F 0 "SW57" H 1650 3400 50  0000 C CNN
 F 1 "SW_Push_45deg" H 1450 3690 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 1450 3500 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_1.50u_PCB" H 1450 3500 50  0001 C CNN
 F 3 "~" H 1450 3500 50  0001 C CNN
 	1    1450 3500
 	1    0    0    -1  
@@ -2099,7 +2099,7 @@ AR Path="/66405EFB" Ref="SW29"  Part="1"
 AR Path="/61CA4571/66405EFB" Ref="SW?"  Part="1" 
 F 0 "SW29" H 1850 2800 50  0000 C CNN
 F 1 "SW_Push_45deg" H 1650 3090 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 1650 2900 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_1.25u_1.75u_PCB" H 1650 2900 50  0001 C CNN
 F 3 "~" H 1650 2900 50  0001 C CNN
 	1    1650 2900
 	1    0    0    -1  
@@ -2112,7 +2112,7 @@ AR Path="/66407AE6" Ref="SW15"  Part="1"
 AR Path="/61CA4571/66407AE6" Ref="SW?"  Part="1" 
 F 0 "SW15" H 1950 2500 50  0000 C CNN
 F 1 "SW_Push_45deg" H 1750 2790 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 1750 2600 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_1.50u_PCB" H 1750 2600 50  0001 C CNN
 F 3 "~" H 1750 2600 50  0001 C CNN
 	1    1750 2600
 	1    0    0    -1  
@@ -2151,7 +2151,7 @@ AR Path="/66417B31" Ref="SW59"  Part="1"
 AR Path="/61CA4571/66417B31" Ref="SW?"  Part="1" 
 F 0 "SW59" H 4950 3400 50  0000 C CNN
 F 1 "SW_Push_45deg" H 4750 3690 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 4750 3500 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_1.50u_PCB" H 4750 3500 50  0001 C CNN
 F 3 "~" H 4750 3500 50  0001 C CNN
 	1    4750 3500
 	1    0    0    -1  
@@ -2385,7 +2385,7 @@ AR Path="/6654870A" Ref="SW60"  Part="1"
 AR Path="/61CA4571/6654870A" Ref="SW?"  Part="1" 
 F 0 "SW60" H 9900 3400 50  0000 C CNN
 F 1 "SW_Push_45deg" H 9700 3690 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 9700 3500 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_2.75u_PCB" H 9700 3500 50  0001 C CNN
 F 3 "~" H 9700 3500 50  0001 C CNN
 	1    9700 3500
 	1    0    0    -1  
@@ -2744,7 +2744,7 @@ AR Path="/667D6B77" Ref="SW61"  Part="1"
 AR Path="/61CA4571/667D6B77" Ref="SW?"  Part="1" 
 F 0 "SW61" H 1650 6600 50  0000 C CNN
 F 1 "SW_Push_45deg" H 1450 6890 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 1450 6700 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_7.00u_PCB" H 1450 6700 50  0001 C CNN
 F 3 "~" H 1450 6700 50  0001 C CNN
 	1    1450 6700
 	1    0    0    -1  
@@ -3595,7 +3595,7 @@ AR Path="/667D6D44" Ref="SW62"  Part="1"
 AR Path="/61CA4571/667D6D44" Ref="SW?"  Part="1" 
 F 0 "SW62" H 4950 6600 50  0000 C CNN
 F 1 "SW_Push_45deg" H 4750 6890 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 4750 6700 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_2.75u_PCB" H 4750 6700 50  0001 C CNN
 F 3 "~" H 4750 6700 50  0001 C CNN
 	1    4750 6700
 	1    0    0    -1  
@@ -3764,7 +3764,7 @@ AR Path="/667D6D9E" Ref="SW63"  Part="1"
 AR Path="/61CA4571/667D6D9E" Ref="SW?"  Part="1" 
 F 0 "SW63" H 8250 6600 50  0000 C CNN
 F 1 "SW_Push_45deg" H 8050 6890 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 8050 6700 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_1.50u_PCB" H 8050 6700 50  0001 C CNN
 F 3 "~" H 8050 6700 50  0001 C CNN
 	1    8050 6700
 	1    0    0    -1  
@@ -3816,7 +3816,7 @@ AR Path="/667D6DB6" Ref="SW55"  Part="1"
 AR Path="/61CA4571/667D6DB6" Ref="SW?"  Part="1" 
 F 0 "SW55" H 10000 6300 50  0000 C CNN
 F 1 "SW_Push_45deg" H 9800 6590 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 9800 6400 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_1.75u_2.75u_PCB" H 9800 6400 50  0001 C CNN
 F 3 "~" H 9800 6400 50  0001 C CNN
 	1    9800 6400
 	1    0    0    -1  
@@ -3842,7 +3842,7 @@ AR Path="/667D6DC2" Ref="SW41"  Part="1"
 AR Path="/61CA4571/667D6DC2" Ref="SW?"  Part="1" 
 F 0 "SW41" H 10100 6000 50  0000 C CNN
 F 1 "SW_Push_45deg" H 9900 6290 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 9900 6100 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_1.00u_2.25u_PCB" H 9900 6100 50  0001 C CNN
 F 3 "~" H 9900 6100 50  0001 C CNN
 	1    9900 6100
 	1    0    0    -1  
@@ -3894,7 +3894,7 @@ AR Path="/667D6DDA" Ref="SW65"  Part="1"
 AR Path="/61CA4571/667D6DDA" Ref="SW?"  Part="1" 
 F 0 "SW65" H 11550 6600 50  0000 C CNN
 F 1 "SW_Push_45deg" H 11350 6890 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 11350 6700 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_1.50u_PCB" H 11350 6700 50  0001 C CNN
 F 3 "~" H 11350 6700 50  0001 C CNN
 	1    11350 6700
 	1    0    0    -1  
@@ -3907,7 +3907,7 @@ AR Path="/667D6DE0" Ref="SW42"  Part="1"
 AR Path="/61CA4571/667D6DE0" Ref="SW?"  Part="1" 
 F 0 "SW42" H 11750 6000 50  0000 C CNN
 F 1 "SW_Push_45deg" H 11550 6290 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 11550 6100 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_1.50u_ISO_PCB" H 11550 6100 50  0001 C CNN
 F 3 "~" H 11550 6100 50  0001 C CNN
 	1    11550 6100
 	1    0    0    -1  
@@ -3933,7 +3933,7 @@ AR Path="/667D6DEC" Ref="SW14"  Part="1"
 AR Path="/61CA4571/667D6DEC" Ref="SW?"  Part="1" 
 F 0 "SW14" H 11950 5400 50  0000 C CNN
 F 1 "SW_Push_45deg" H 11750 5690 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.00u_PCB" H 11750 5500 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_1.00u_2.00u_PCB" H 11750 5500 50  0001 C CNN
 F 3 "~" H 11750 5500 50  0001 C CNN
 	1    11750 5500
 	1    0    0    -1  
