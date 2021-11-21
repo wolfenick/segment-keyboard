@@ -1,0 +1,351 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 10000 6150 2    50   Input ~ 0
+RBUS
+Text HLabel 9650 6150 0    50   Input ~ 0
+CBUS
+$Comp
+L Segment_Symbols:74HC365 U?
+U 1 1 6475529A
+P 1300 1500
+AR Path="/6475529A" Ref="U?"  Part="1" 
+AR Path="/61CA4571/6475529A" Ref="U?"  Part="1" 
+F 0 "U?" V 1300 1500 50  0000 C CNN
+F 1 "74HC365" V 1650 1300 50  0000 R TNN
+F 2 "" H 1300 1500 50  0001 C CNN
+F 3 "" H 1300 1500 50  0001 C CNN
+	1    1300 1500
+	0    1    1    0   
+$EndComp
+Text Label 1000 1000 1    50   ~ 0
+COL12
+Entry Wire Line
+	900  650  1000 750 
+Wire Wire Line
+	1000 750  1000 1100
+Wire Wire Line
+	1700 1100 1700 1050
+Wire Wire Line
+	1700 1050 1600 1050
+Wire Wire Line
+	650  1050 650  1500
+Wire Wire Line
+	650  1500 700  1500
+Wire Wire Line
+	900  1100 900  1050
+Connection ~ 900  1050
+Wire Wire Line
+	900  1050 650  1050
+Wire Wire Line
+	1200 1100 1200 1050
+Connection ~ 1200 1050
+Wire Wire Line
+	1200 1050 900  1050
+Wire Wire Line
+	1300 1100 1300 1050
+Connection ~ 1300 1050
+Wire Wire Line
+	1300 1050 1200 1050
+Wire Wire Line
+	1400 1100 1400 1050
+Connection ~ 1400 1050
+Wire Wire Line
+	1400 1050 1300 1050
+Wire Wire Line
+	1500 1100 1500 1050
+Connection ~ 1500 1050
+Wire Wire Line
+	1500 1050 1400 1050
+Wire Wire Line
+	1600 1100 1600 1050
+Connection ~ 1600 1050
+Wire Wire Line
+	1600 1050 1500 1050
+$Comp
+L power:GND #PWR?
+U 1 1 647552B9
+P 650 1850
+AR Path="/647552B9" Ref="#PWR?"  Part="1" 
+AR Path="/61CA4571/647552B9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 650 1600 50  0001 C CNN
+F 1 "GND" H 655 1677 50  0000 C CNN
+F 2 "" H 650 1850 50  0001 C CNN
+F 3 "" H 650 1850 50  0001 C CNN
+	1    650  1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 650  1500
+$Comp
+L Device:C C?
+U 1 1 647552C0
+P 1950 1700
+AR Path="/647552C0" Ref="C?"  Part="1" 
+AR Path="/61CA4571/647552C0" Ref="C?"  Part="1" 
+F 0 "C?" H 2065 1746 50  0000 L CNN
+F 1 "100n" H 2065 1655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 1988 1550 50  0001 C CNN
+F 3 "~" H 1950 1700 50  0001 C CNN
+	1    1950 1700
+	1    0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 647552C6
+P 1950 1150
+AR Path="/647552C6" Ref="#PWR?"  Part="1" 
+AR Path="/61CA4571/647552C6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1950 1000 50  0001 C CNN
+F 1 "VCC" H 1965 1323 50  0000 C CNN
+F 2 "" H 1950 1150 50  0001 C CNN
+F 3 "" H 1950 1150 50  0001 C CNN
+	1    1950 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1500 1950 1500
+Wire Wire Line
+	1950 1500 1950 1550
+Connection ~ 1950 1500
+$Comp
+L power:GND #PWR?
+U 1 1 647552CF
+P 1950 1850
+AR Path="/647552CF" Ref="#PWR?"  Part="1" 
+AR Path="/61CA4571/647552CF" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1950 1600 50  0001 C CNN
+F 1 "GND" H 1955 1677 50  0000 C CNN
+F 2 "" H 1950 1850 50  0001 C CNN
+F 3 "" H 1950 1850 50  0001 C CNN
+	1    1950 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	650  1500 650  1850
+Wire Wire Line
+	1950 1150 1950 1500
+Wire Wire Line
+	1700 2100 1700 1900
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 64755314
+P 1800 2200
+AR Path="/64755314" Ref="SW?"  Part="1" 
+AR Path="/61CA4571/64755314" Ref="SW?"  Part="1" 
+F 0 "SW?" H 1950 2150 50  0000 L CNN
+F 1 "SW_Push_45deg" H 1800 2390 50  0001 C CNN
+F 2 "" H 1800 2200 50  0001 C CNN
+F 3 "~" H 1800 2200 50  0001 C CNN
+	1    1800 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Segment_Symbols:74HC365 U?
+U 1 1 647ED7E3
+P 2950 1500
+AR Path="/647ED7E3" Ref="U?"  Part="1" 
+AR Path="/61CA4571/647ED7E3" Ref="U?"  Part="1" 
+F 0 "U?" V 2950 1500 50  0000 C CNN
+F 1 "74HC365" V 3300 1300 50  0000 R TNN
+F 2 "" H 2950 1500 50  0001 C CNN
+F 3 "" H 2950 1500 50  0001 C CNN
+	1    2950 1500
+	0    1    1    0   
+$EndComp
+Text Label 2650 1000 1    50   ~ 0
+COL12
+Entry Wire Line
+	2550 650  2650 750 
+Wire Wire Line
+	2650 750  2650 1100
+Wire Wire Line
+	3350 1100 3350 1050
+Wire Wire Line
+	3350 1050 3250 1050
+Wire Wire Line
+	2300 1050 2300 1500
+Wire Wire Line
+	2300 1500 2350 1500
+Wire Wire Line
+	2550 1100 2550 1050
+Connection ~ 2550 1050
+Wire Wire Line
+	2550 1050 2300 1050
+Wire Wire Line
+	2850 1100 2850 1050
+Connection ~ 2850 1050
+Wire Wire Line
+	2850 1050 2550 1050
+Wire Wire Line
+	2950 1100 2950 1050
+Connection ~ 2950 1050
+Wire Wire Line
+	2950 1050 2850 1050
+Wire Wire Line
+	3050 1100 3050 1050
+Connection ~ 3050 1050
+Wire Wire Line
+	3050 1050 2950 1050
+Wire Wire Line
+	3150 1100 3150 1050
+Connection ~ 3150 1050
+Wire Wire Line
+	3150 1050 3050 1050
+Wire Wire Line
+	3250 1100 3250 1050
+Connection ~ 3250 1050
+Wire Wire Line
+	3250 1050 3150 1050
+$Comp
+L power:GND #PWR?
+U 1 1 647ED802
+P 2300 1850
+AR Path="/647ED802" Ref="#PWR?"  Part="1" 
+AR Path="/61CA4571/647ED802" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2300 1600 50  0001 C CNN
+F 1 "GND" H 2305 1677 50  0000 C CNN
+F 2 "" H 2300 1850 50  0001 C CNN
+F 3 "" H 2300 1850 50  0001 C CNN
+	1    2300 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 1500
+$Comp
+L Device:C C?
+U 1 1 647ED809
+P 3600 1700
+AR Path="/647ED809" Ref="C?"  Part="1" 
+AR Path="/61CA4571/647ED809" Ref="C?"  Part="1" 
+F 0 "C?" H 3715 1746 50  0000 L CNN
+F 1 "100n" H 3715 1655 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3638 1550 50  0001 C CNN
+F 3 "~" H 3600 1700 50  0001 C CNN
+	1    3600 1700
+	1    0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 647ED80F
+P 3600 1150
+AR Path="/647ED80F" Ref="#PWR?"  Part="1" 
+AR Path="/61CA4571/647ED80F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3600 1000 50  0001 C CNN
+F 1 "VCC" H 3615 1323 50  0000 C CNN
+F 2 "" H 3600 1150 50  0001 C CNN
+F 3 "" H 3600 1150 50  0001 C CNN
+	1    3600 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1500 3600 1500
+Wire Wire Line
+	3600 1500 3600 1550
+Connection ~ 3600 1500
+$Comp
+L power:GND #PWR?
+U 1 1 647ED818
+P 3600 1850
+AR Path="/647ED818" Ref="#PWR?"  Part="1" 
+AR Path="/61CA4571/647ED818" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3600 1600 50  0001 C CNN
+F 1 "GND" H 3605 1677 50  0000 C CNN
+F 2 "" H 3600 1850 50  0001 C CNN
+F 3 "" H 3600 1850 50  0001 C CNN
+	1    3600 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1500 2300 1850
+Wire Wire Line
+	3600 1150 3600 1500
+Wire Wire Line
+	3250 2100 3250 1900
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 647ED83D
+P 3350 2200
+AR Path="/647ED83D" Ref="SW?"  Part="1" 
+AR Path="/61CA4571/647ED83D" Ref="SW?"  Part="1" 
+F 0 "SW?" H 3500 2150 50  0000 L CNN
+F 1 "SW_Push_45deg" H 3350 2390 50  0001 C CNN
+F 2 "" H 3350 2200 50  0001 C CNN
+F 3 "~" H 3350 2200 50  0001 C CNN
+	1    3350 2200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3350 1900
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 647F9AAC
+P 1700 2450
+AR Path="/647F9AAC" Ref="SW?"  Part="1" 
+AR Path="/61CA4571/647F9AAC" Ref="SW?"  Part="1" 
+F 0 "SW?" H 1850 2400 50  0000 L CNN
+F 1 "SW_Push_45deg" H 1700 2640 50  0001 C CNN
+F 2 "" H 1700 2450 50  0001 C CNN
+F 3 "~" H 1700 2450 50  0001 C CNN
+	1    1700 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 647FBF8D
+P 1600 2700
+AR Path="/647FBF8D" Ref="SW?"  Part="1" 
+AR Path="/61CA4571/647FBF8D" Ref="SW?"  Part="1" 
+F 0 "SW?" H 1750 2650 50  0000 L CNN
+F 1 "SW_Push_45deg" H 1600 2890 50  0001 C CNN
+F 2 "" H 1600 2700 50  0001 C CNN
+F 3 "~" H 1600 2700 50  0001 C CNN
+	1    1600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 647FCAA4
+P 1500 2950
+AR Path="/647FCAA4" Ref="SW?"  Part="1" 
+AR Path="/61CA4571/647FCAA4" Ref="SW?"  Part="1" 
+F 0 "SW?" H 1650 2900 50  0000 L CNN
+F 1 "SW_Push_45deg" H 1500 3140 50  0001 C CNN
+F 2 "" H 1500 2950 50  0001 C CNN
+F 3 "~" H 1500 2950 50  0001 C CNN
+	1    1500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 647FDDC7
+P 1400 3200
+AR Path="/647FDDC7" Ref="SW?"  Part="1" 
+AR Path="/61CA4571/647FDDC7" Ref="SW?"  Part="1" 
+F 0 "SW?" H 1550 3150 50  0000 L CNN
+F 1 "SW_Push_45deg" H 1400 3390 50  0001 C CNN
+F 2 "" H 1400 3200 50  0001 C CNN
+F 3 "~" H 1400 3200 50  0001 C CNN
+	1    1400 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 3100 1300 1900
+Wire Wire Line
+	1400 2850 1400 1900
+Wire Wire Line
+	1500 2600 1500 1900
+Wire Wire Line
+	1600 2350 1600 1900
+Wire Bus Line
+	600  650  2250 650 
+$EndSCHEMATC
