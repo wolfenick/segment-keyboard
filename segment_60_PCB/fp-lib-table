@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name Segment_Footprints)(type KiCad)(uri /home/wolfenick/Documents/segment-keyboard/common/Segment_Footprints.pretty)(options "")(descr ""))
+  (lib (name Segment_Footprints)(type KiCad)(uri /home/avawolfe/Documents/segment-keyboard/common/Segment_Footprints.pretty)(options "")(descr ""))
 )
