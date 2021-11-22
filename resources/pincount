@@ -1,0 +1,17 @@
+maximum (TKL)
+
+CORE: 19
+2 - crystal
+2 - USB
+6 - matrix rows
+5 - matrix columns
+4 - ISP (incl reset)
+
+MISC: 5
+1 - boot button
+2 - capslock/other LEDs
+2 - I2C
+
+TOTAL:
+24 - all unique IO
+20 - boot button in matrix; reusing ISP IO

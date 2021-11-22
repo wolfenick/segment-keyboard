@@ -222,7 +222,7 @@ U 1 1 5F2388DC
 P 5650 8050
 F 0 "C6" H 5765 8096 50  0000 L CNN
 F 1 "100n" H 5765 8005 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5688 7900 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5688 7900 50  0001 C CNN
 F 3 "~" H 5650 8050 50  0001 C CNN
 	1    5650 8050
 	1    0    0    -1  
@@ -244,7 +244,7 @@ U 1 1 5F22D174
 P 3000 8050
 F 0 "C5" H 3115 8096 50  0000 L CNN
 F 1 "100n" H 3115 8005 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3038 7900 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3038 7900 50  0001 C CNN
 F 3 "~" H 3000 8050 50  0001 C CNN
 	1    3000 8050
 	1    0    0    -1  
@@ -666,7 +666,7 @@ U 1 1 5FBB53AC
 P 13550 6150
 F 0 "J1" H 13550 6700 50  0000 C CNN
 F 1 "MDB-9M" H 13550 5550 50  0000 C CNN
-F 2 "" H 13550 6150 50  0001 C CNN
+F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 13550 6150 50  0001 C CNN
 F 3 " ~" H 13550 6150 50  0001 C CNN
 	1    13550 6150
 	-1   0    0    -1  
@@ -870,7 +870,7 @@ U 1 1 62ACBC6C
 P 14300 8450
 F 0 "Y1" H 14300 8718 50  0000 C CNN
 F 1 "16MHz" H 14300 8627 50  0000 C CNN
-F 2 "Crystal:Crystal_HC18-U_Vertical" H 14300 8450 50  0001 C CNN
+F 2 "Crystal:Crystal_HC49-4H_Vertical" H 14300 8450 50  0001 C CNN
 F 3 "~" H 14300 8450 50  0001 C CNN
 	1    14300 8450
 	1    0    0    -1  
@@ -1107,7 +1107,7 @@ AR Path="/648384E4" Ref="C7"  Part="1"
 AR Path="/61CA4571/648384E4" Ref="C?"  Part="1" 
 F 0 "C7" H 2215 1846 50  0000 L CNN
 F 1 "100n" H 2215 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 2138 1650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 2138 1650 50  0001 C CNN
 F 3 "~" H 2100 1800 50  0001 C CNN
 	1    2100 1800
 	1    0    0    1   
@@ -1228,7 +1228,7 @@ AR Path="/64838528" Ref="C8"  Part="1"
 AR Path="/61CA4571/64838528" Ref="C?"  Part="1" 
 F 0 "C8" H 3865 1846 50  0000 L CNN
 F 1 "100n" H 3865 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3788 1650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3788 1650 50  0001 C CNN
 F 3 "~" H 3750 1800 50  0001 C CNN
 	1    3750 1800
 	1    0    0    1   
@@ -1421,7 +1421,7 @@ AR Path="/6540ED4B" Ref="C9"  Part="1"
 AR Path="/61CA4571/6540ED4B" Ref="C?"  Part="1" 
 F 0 "C9" H 5515 1846 50  0000 L CNN
 F 1 "100n" H 5515 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5438 1650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5438 1650 50  0001 C CNN
 F 3 "~" H 5400 1800 50  0001 C CNN
 	1    5400 1800
 	1    0    0    1   
@@ -1542,7 +1542,7 @@ AR Path="/6540ED8F" Ref="C10"  Part="1"
 AR Path="/61CA4571/6540ED8F" Ref="C?"  Part="1" 
 F 0 "C10" H 7165 1846 50  0000 L CNN
 F 1 "100n" H 7165 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7088 1650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7088 1650 50  0001 C CNN
 F 3 "~" H 7050 1800 50  0001 C CNN
 	1    7050 1800
 	1    0    0    1   
@@ -1703,7 +1703,7 @@ AR Path="/65480E1E" Ref="C11"  Part="1"
 AR Path="/61CA4571/65480E1E" Ref="C?"  Part="1" 
 F 0 "C11" H 8815 1846 50  0000 L CNN
 F 1 "100n" H 8815 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8738 1650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 8738 1650 50  0001 C CNN
 F 3 "~" H 8700 1800 50  0001 C CNN
 	1    8700 1800
 	1    0    0    1   
@@ -1824,7 +1824,7 @@ AR Path="/65480E62" Ref="C12"  Part="1"
 AR Path="/61CA4571/65480E62" Ref="C?"  Part="1" 
 F 0 "C12" H 10465 1846 50  0000 L CNN
 F 1 "100n" H 10465 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 10388 1650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 10388 1650 50  0001 C CNN
 F 3 "~" H 10350 1800 50  0001 C CNN
 	1    10350 1800
 	1    0    0    1   
@@ -1985,7 +1985,7 @@ AR Path="/6550EB7A" Ref="C13"  Part="1"
 AR Path="/61CA4571/6550EB7A" Ref="C?"  Part="1" 
 F 0 "C13" H 12115 1846 50  0000 L CNN
 F 1 "100n" H 12115 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 12038 1650 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 12038 1650 50  0001 C CNN
 F 3 "~" H 12000 1800 50  0001 C CNN
 	1    12000 1800
 	1    0    0    1   
@@ -2558,7 +2558,7 @@ AR Path="/667D6B19" Ref="C14"  Part="1"
 AR Path="/61CA4571/667D6B19" Ref="C?"  Part="1" 
 F 0 "C14" H 2215 5046 50  0000 L CNN
 F 1 "100n" H 2215 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 2138 4850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 2138 4850 50  0001 C CNN
 F 3 "~" H 2100 5000 50  0001 C CNN
 	1    2100 5000
 	1    0    0    1   
@@ -2677,7 +2677,7 @@ AR Path="/667D6B57" Ref="C15"  Part="1"
 AR Path="/61CA4571/667D6B57" Ref="C?"  Part="1" 
 F 0 "C15" H 3865 5046 50  0000 L CNN
 F 1 "100n" H 3865 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3788 4850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3788 4850 50  0001 C CNN
 F 3 "~" H 3750 5000 50  0001 C CNN
 	1    3750 5000
 	1    0    0    1   
@@ -2862,7 +2862,7 @@ AR Path="/667D6BB8" Ref="C16"  Part="1"
 AR Path="/61CA4571/667D6BB8" Ref="C?"  Part="1" 
 F 0 "C16" H 5515 5046 50  0000 L CNN
 F 1 "100n" H 5515 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5438 4850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5438 4850 50  0001 C CNN
 F 3 "~" H 5400 5000 50  0001 C CNN
 	1    5400 5000
 	1    0    0    1   
@@ -2981,7 +2981,7 @@ AR Path="/667D6BF6" Ref="C17"  Part="1"
 AR Path="/61CA4571/667D6BF6" Ref="C?"  Part="1" 
 F 0 "C17" H 7165 5046 50  0000 L CNN
 F 1 "100n" H 7165 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 7088 4850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7088 4850 50  0001 C CNN
 F 3 "~" H 7050 5000 50  0001 C CNN
 	1    7050 5000
 	1    0    0    1   
@@ -3140,7 +3140,7 @@ AR Path="/667D6C4B" Ref="C18"  Part="1"
 AR Path="/61CA4571/667D6C4B" Ref="C?"  Part="1" 
 F 0 "C18" H 8815 5046 50  0000 L CNN
 F 1 "100n" H 8815 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 8738 4850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 8738 4850 50  0001 C CNN
 F 3 "~" H 8700 5000 50  0001 C CNN
 	1    8700 5000
 	1    0    0    1   
@@ -3259,7 +3259,7 @@ AR Path="/667D6C89" Ref="C19"  Part="1"
 AR Path="/61CA4571/667D6C89" Ref="C?"  Part="1" 
 F 0 "C19" H 10465 5046 50  0000 L CNN
 F 1 "100n" H 10465 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 10388 4850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 10388 4850 50  0001 C CNN
 F 3 "~" H 10350 5000 50  0001 C CNN
 	1    10350 5000
 	1    0    0    1   
@@ -3424,7 +3424,7 @@ AR Path="/667D6CDE" Ref="C20"  Part="1"
 AR Path="/61CA4571/667D6CDE" Ref="C?"  Part="1" 
 F 0 "C20" H 12115 5046 50  0000 L CNN
 F 1 "100n" H 12115 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 12038 4850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 12038 4850 50  0001 C CNN
 F 3 "~" H 12000 5000 50  0001 C CNN
 	1    12000 5000
 	1    0    0    1   
