@@ -3765,35 +3765,35 @@ $EndComp
 $Comp
 L power:VCC #PWR0102
 U 1 1 62B23A0D
-P 15200 8650
-F 0 "#PWR0102" H 15200 8500 50  0001 C CNN
-F 1 "VCC" H 15215 8823 50  0000 C CNN
-F 2 "" H 15200 8650 50  0001 C CNN
-F 3 "" H 15200 8650 50  0001 C CNN
-	1    15200 8650
+P 14450 8550
+F 0 "#PWR0102" H 14450 8400 50  0001 C CNN
+F 1 "VCC" H 14465 8723 50  0000 C CNN
+F 2 "" H 14450 8550 50  0001 C CNN
+F 3 "" H 14450 8550 50  0001 C CNN
+	1    14450 8550
 	1    0    0    -1  
 $EndComp
-Text GLabel 15700 9050 3    50   Input ~ 0
+Text GLabel 14950 8950 3    50   Input ~ 0
 ROW5
-Text GLabel 15600 9050 3    50   Input ~ 0
+Text GLabel 14850 8950 3    50   Input ~ 0
 ROW4
-Text GLabel 15500 9050 3    50   Input ~ 0
+Text GLabel 14750 8950 3    50   Input ~ 0
 ROW3
-Text GLabel 15400 9050 3    50   Input ~ 0
+Text GLabel 14650 8950 3    50   Input ~ 0
 ROW2
-Text GLabel 15300 9050 3    50   Input ~ 0
+Text GLabel 14550 8950 3    50   Input ~ 0
 ROW1
-Text GLabel 15200 9050 3    50   Input ~ 0
+Text GLabel 14450 8950 3    50   Input ~ 0
 ROW0
 $Comp
 L Device:R_Network06 RN1
 U 1 1 628AE35E
-P 15500 8850
-F 0 "RN1" H 15788 8896 50  0000 L CNN
-F 1 "10k" H 15788 8805 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP7" V 15875 8850 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 15500 8850 50  0001 C CNN
-	1    15500 8850
+P 14750 8750
+F 0 "RN1" H 15038 8796 50  0000 L CNN
+F 1 "10k" H 15038 8705 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP7" V 15125 8750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 14750 8750 50  0001 C CNN
+	1    14750 8750
 	1    0    0    -1  
 $EndComp
 Connection ~ 13250 9100
@@ -3875,7 +3875,7 @@ U 1 1 63BC4BA6
 P 12600 8900
 F 0 "J1" H 12650 9317 50  0000 C CNN
 F 1 "BREAKOUT" H 12650 9226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 12600 8900 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x06_P2.54mm_Vertical" H 12600 8900 50  0001 C CNN
 F 3 "~" H 12600 8900 50  0001 C CNN
 	1    12600 8900
 	1    0    0    -1  
