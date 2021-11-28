@@ -132,7 +132,7 @@ U 1 1 5F2388DC
 P 5650 8050
 F 0 "C6" H 5765 8096 50  0000 L CNN
 F 1 "100n" H 5765 8005 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5688 7900 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 5688 7900 50  0001 C CNN
 F 3 "~" H 5650 8050 50  0001 C CNN
 	1    5650 8050
 	1    0    0    -1  
@@ -154,7 +154,7 @@ U 1 1 5F22D174
 P 3000 8050
 F 0 "C5" H 3115 8096 50  0000 L CNN
 F 1 "100n" H 3115 8005 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3038 7900 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 3038 7900 50  0001 C CNN
 F 3 "~" H 3000 8050 50  0001 C CNN
 	1    3000 8050
 	1    0    0    -1  
@@ -296,7 +296,7 @@ Text GLabel 14700 2450 2    50   Input ~ 0
 ROW2
 Text GLabel 14700 2550 2    50   Input ~ 0
 ROW3
-Text GLabel 14700 2650 2    50   Input ~ 0
+Text GLabel 14700 3050 2    50   Input ~ 0
 ROW4
 Text GLabel 14950 3250 2    50   Input ~ 0
 D+
@@ -615,7 +615,7 @@ AR Path="/648384E4" Ref="C7"  Part="1"
 AR Path="/61CA4571/648384E4" Ref="C?"  Part="1" 
 F 0 "C7" H 2215 1846 50  0000 L CNN
 F 1 "100n" H 2215 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 2138 1650 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 2138 1650 50  0001 C CNN
 F 3 "~" H 2100 1800 50  0001 C CNN
 	1    2100 1800
 	1    0    0    1   
@@ -736,7 +736,7 @@ AR Path="/64838528" Ref="C8"  Part="1"
 AR Path="/61CA4571/64838528" Ref="C?"  Part="1" 
 F 0 "C8" H 3865 1846 50  0000 L CNN
 F 1 "100n" H 3865 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3788 1650 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 3788 1650 50  0001 C CNN
 F 3 "~" H 3750 1800 50  0001 C CNN
 	1    3750 1800
 	1    0    0    1   
@@ -929,7 +929,7 @@ AR Path="/6540ED4B" Ref="C9"  Part="1"
 AR Path="/61CA4571/6540ED4B" Ref="C?"  Part="1" 
 F 0 "C9" H 5515 1846 50  0000 L CNN
 F 1 "100n" H 5515 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5438 1650 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 5438 1650 50  0001 C CNN
 F 3 "~" H 5400 1800 50  0001 C CNN
 	1    5400 1800
 	1    0    0    1   
@@ -1050,7 +1050,7 @@ AR Path="/6540ED8F" Ref="C10"  Part="1"
 AR Path="/61CA4571/6540ED8F" Ref="C?"  Part="1" 
 F 0 "C10" H 7165 1846 50  0000 L CNN
 F 1 "100n" H 7165 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7088 1650 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 7088 1650 50  0001 C CNN
 F 3 "~" H 7050 1800 50  0001 C CNN
 	1    7050 1800
 	1    0    0    1   
@@ -1211,7 +1211,7 @@ AR Path="/65480E1E" Ref="C11"  Part="1"
 AR Path="/61CA4571/65480E1E" Ref="C?"  Part="1" 
 F 0 "C11" H 8815 1846 50  0000 L CNN
 F 1 "100n" H 8815 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 8738 1650 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 8738 1650 50  0001 C CNN
 F 3 "~" H 8700 1800 50  0001 C CNN
 	1    8700 1800
 	1    0    0    1   
@@ -1332,7 +1332,7 @@ AR Path="/65480E62" Ref="C12"  Part="1"
 AR Path="/61CA4571/65480E62" Ref="C?"  Part="1" 
 F 0 "C12" H 10465 1846 50  0000 L CNN
 F 1 "100n" H 10465 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 10388 1650 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 10388 1650 50  0001 C CNN
 F 3 "~" H 10350 1800 50  0001 C CNN
 	1    10350 1800
 	1    0    0    1   
@@ -1493,7 +1493,7 @@ AR Path="/6550EB7A" Ref="C13"  Part="1"
 AR Path="/61CA4571/6550EB7A" Ref="C?"  Part="1" 
 F 0 "C13" H 12115 1846 50  0000 L CNN
 F 1 "100n" H 12115 1755 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 12038 1650 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 12038 1650 50  0001 C CNN
 F 3 "~" H 12000 1800 50  0001 C CNN
 	1    12000 1800
 	1    0    0    1   
@@ -2066,7 +2066,7 @@ AR Path="/667D6B19" Ref="C14"  Part="1"
 AR Path="/61CA4571/667D6B19" Ref="C?"  Part="1" 
 F 0 "C14" H 2215 5046 50  0000 L CNN
 F 1 "100n" H 2215 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 2138 4850 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 2138 4850 50  0001 C CNN
 F 3 "~" H 2100 5000 50  0001 C CNN
 	1    2100 5000
 	1    0    0    1   
@@ -2185,7 +2185,7 @@ AR Path="/667D6B57" Ref="C15"  Part="1"
 AR Path="/61CA4571/667D6B57" Ref="C?"  Part="1" 
 F 0 "C15" H 3865 5046 50  0000 L CNN
 F 1 "100n" H 3865 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 3788 4850 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 3788 4850 50  0001 C CNN
 F 3 "~" H 3750 5000 50  0001 C CNN
 	1    3750 5000
 	1    0    0    1   
@@ -2370,7 +2370,7 @@ AR Path="/667D6BB8" Ref="C16"  Part="1"
 AR Path="/61CA4571/667D6BB8" Ref="C?"  Part="1" 
 F 0 "C16" H 5515 5046 50  0000 L CNN
 F 1 "100n" H 5515 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5438 4850 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 5438 4850 50  0001 C CNN
 F 3 "~" H 5400 5000 50  0001 C CNN
 	1    5400 5000
 	1    0    0    1   
@@ -2489,7 +2489,7 @@ AR Path="/667D6BF6" Ref="C17"  Part="1"
 AR Path="/61CA4571/667D6BF6" Ref="C?"  Part="1" 
 F 0 "C17" H 7165 5046 50  0000 L CNN
 F 1 "100n" H 7165 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7088 4850 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 7088 4850 50  0001 C CNN
 F 3 "~" H 7050 5000 50  0001 C CNN
 	1    7050 5000
 	1    0    0    1   
@@ -2648,7 +2648,7 @@ AR Path="/667D6C4B" Ref="C18"  Part="1"
 AR Path="/61CA4571/667D6C4B" Ref="C?"  Part="1" 
 F 0 "C18" H 8815 5046 50  0000 L CNN
 F 1 "100n" H 8815 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 8738 4850 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 8738 4850 50  0001 C CNN
 F 3 "~" H 8700 5000 50  0001 C CNN
 	1    8700 5000
 	1    0    0    1   
@@ -2767,7 +2767,7 @@ AR Path="/667D6C89" Ref="C19"  Part="1"
 AR Path="/61CA4571/667D6C89" Ref="C?"  Part="1" 
 F 0 "C19" H 10465 5046 50  0000 L CNN
 F 1 "100n" H 10465 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 10388 4850 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 10388 4850 50  0001 C CNN
 F 3 "~" H 10350 5000 50  0001 C CNN
 	1    10350 5000
 	1    0    0    1   
@@ -2932,7 +2932,7 @@ AR Path="/667D6CDE" Ref="C20"  Part="1"
 AR Path="/61CA4571/667D6CDE" Ref="C?"  Part="1" 
 F 0 "C20" H 12115 5046 50  0000 L CNN
 F 1 "100n" H 12115 4955 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 12038 4850 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P7.62mm_Horizontal" H 12038 4850 50  0001 C CNN
 F 3 "~" H 12000 5000 50  0001 C CNN
 	1    12000 5000
 	1    0    0    1   
@@ -3579,7 +3579,7 @@ Wire Wire Line
 	5100 8800 5150 8800
 NoConn ~ 5150 8800
 NoConn ~ 5150 8700
-Text GLabel 14700 2750 2    50   Input ~ 0
+Text GLabel 14700 3150 2    50   Input ~ 0
 ROW5
 Text Label 14750 1350 0    50   ~ 0
 SEL4
@@ -3598,10 +3598,6 @@ Wire Wire Line
 Wire Wire Line
 	14700 1350 15000 1350
 NoConn ~ 15000 1350
-Text GLabel 14700 3050 2    50   Input ~ 0
-RXD
-Text GLabel 14700 3150 2    50   Input ~ 0
-TXD
 $Comp
 L power:VCC #PWR0101
 U 1 1 63B4F306
@@ -3640,10 +3636,10 @@ $EndComp
 Wire Wire Line
 	10950 8550 10950 8450
 $Comp
-L Device:R R6
+L Device:R R8
 U 1 1 68C6E5F6
 P 10950 8700
-F 0 "R6" H 11020 8746 50  0000 L CNN
+F 0 "R8" H 11020 8746 50  0000 L CNN
 F 1 "220R" H 11020 8655 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10880 8700 50  0001 C CNN
 F 3 "~" H 10950 8700 50  0001 C CNN
@@ -3688,10 +3684,10 @@ LED0
 Wire Wire Line
 	10350 8550 10350 8450
 $Comp
-L Device:R R5
+L Device:R R7
 U 1 1 5F2832C1
 P 10350 8700
-F 0 "R5" H 10420 8746 50  0000 L CNN
+F 0 "R7" H 10420 8746 50  0000 L CNN
 F 1 "220R" H 10420 8655 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10280 8700 50  0001 C CNN
 F 3 "~" H 10350 8700 50  0001 C CNN
@@ -3752,10 +3748,10 @@ F 3 "" H 8900 8850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L Device:R R6
 U 1 1 5F16616A
 P 8900 8200
-F 0 "R4" H 8970 8246 50  0000 L CNN
+F 0 "R6" H 8970 8246 50  0000 L CNN
 F 1 "10k" H 8970 8155 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8830 8200 50  0001 C CNN
 F 3 "~" H 8900 8200 50  0001 C CNN
@@ -3765,35 +3761,35 @@ $EndComp
 $Comp
 L power:VCC #PWR0102
 U 1 1 62B23A0D
-P 15200 8650
-F 0 "#PWR0102" H 15200 8500 50  0001 C CNN
-F 1 "VCC" H 15215 8823 50  0000 C CNN
-F 2 "" H 15200 8650 50  0001 C CNN
-F 3 "" H 15200 8650 50  0001 C CNN
-	1    15200 8650
+P 14450 8550
+F 0 "#PWR0102" H 14450 8400 50  0001 C CNN
+F 1 "VCC" H 14465 8723 50  0000 C CNN
+F 2 "" H 14450 8550 50  0001 C CNN
+F 3 "" H 14450 8550 50  0001 C CNN
+	1    14450 8550
 	1    0    0    -1  
 $EndComp
-Text GLabel 15700 9050 3    50   Input ~ 0
+Text GLabel 14950 8950 3    50   Input ~ 0
 ROW5
-Text GLabel 15600 9050 3    50   Input ~ 0
+Text GLabel 14850 8950 3    50   Input ~ 0
 ROW4
-Text GLabel 15500 9050 3    50   Input ~ 0
+Text GLabel 14750 8950 3    50   Input ~ 0
 ROW3
-Text GLabel 15400 9050 3    50   Input ~ 0
+Text GLabel 14650 8950 3    50   Input ~ 0
 ROW2
-Text GLabel 15300 9050 3    50   Input ~ 0
+Text GLabel 14550 8950 3    50   Input ~ 0
 ROW1
-Text GLabel 15200 9050 3    50   Input ~ 0
+Text GLabel 14450 8950 3    50   Input ~ 0
 ROW0
 $Comp
 L Device:R_Network06 RN1
 U 1 1 628AE35E
-P 15500 8850
-F 0 "RN1" H 15788 8896 50  0000 L CNN
-F 1 "10k" H 15788 8805 50  0000 L CNN
-F 2 "Resistor_THT:R_Array_SIP7" V 15875 8850 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 15500 8850 50  0001 C CNN
-	1    15500 8850
+P 14750 8750
+F 0 "RN1" H 15038 8796 50  0000 L CNN
+F 1 "10k" H 15038 8705 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP7" V 15125 8750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 14750 8750 50  0001 C CNN
+	1    14750 8750
 	1    0    0    -1  
 $EndComp
 Connection ~ 13250 9100
@@ -3811,30 +3807,17 @@ Text GLabel 12900 9200 2    50   Input ~ 0
 USB+
 Text GLabel 12400 9100 0    50   Input ~ 0
 BOOT
-Text GLabel 12900 9000 2    50   Input ~ 0
-RXD
-Text GLabel 12400 9000 0    50   Input ~ 0
-TXD
-Wire Wire Line
-	12950 8300 12950 8350
-Connection ~ 12950 8300
-Wire Wire Line
-	13450 8300 12950 8300
-Wire Wire Line
-	13450 8350 13450 8300
 $Comp
 L power:GND #PWR0103
 U 1 1 64277C11
-P 13450 8650
-F 0 "#PWR0103" H 13450 8400 50  0001 C CNN
-F 1 "GND" H 13455 8477 50  0000 C CNN
-F 2 "" H 13450 8650 50  0001 C CNN
-F 3 "" H 13450 8650 50  0001 C CNN
-	1    13450 8650
+P 13500 9250
+F 0 "#PWR0103" H 13500 9000 50  0001 C CNN
+F 1 "GND" H 13505 9077 50  0000 C CNN
+F 2 "" H 13500 9250 50  0001 C CNN
+F 3 "" H 13500 9250 50  0001 C CNN
+	1    13500 9250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12950 8250 12950 8300
 $Comp
 L power:GND #PWR0104
 U 1 1 640334A0
@@ -3854,19 +3837,15 @@ Text GLabel 12900 8800 2    50   Input ~ 0
 MOSI
 Text GLabel 12400 8700 0    50   Input ~ 0
 MISO
-Wire Wire Line
-	12950 8700 12950 8650
-Wire Wire Line
-	12900 8700 12950 8700
 $Comp
 L power:VCC #PWR0105
 U 1 1 63BD1379
-P 12950 8250
-F 0 "#PWR0105" H 12950 8100 50  0001 C CNN
-F 1 "VCC" H 12965 8423 50  0000 C CNN
-F 2 "" H 12950 8250 50  0001 C CNN
-F 3 "" H 12950 8250 50  0001 C CNN
-	1    12950 8250
+P 13500 8650
+F 0 "#PWR0105" H 13500 8500 50  0001 C CNN
+F 1 "VCC" H 13515 8823 50  0000 C CNN
+F 2 "" H 13500 8650 50  0001 C CNN
+F 3 "" H 13500 8650 50  0001 C CNN
+	1    13500 8650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3883,23 +3862,12 @@ $EndComp
 $Comp
 L Device:C C4
 U 1 1 6335F467
-P 13450 8500
-F 0 "C4" H 13565 8546 50  0000 L CNN
-F 1 "4.7u" H 13565 8455 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal" H 13488 8350 50  0001 C CNN
-F 3 "~" H 13450 8500 50  0001 C CNN
-	1    13450 8500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Polyfuse F1
-U 1 1 630DA3DC
-P 12950 8500
-F 0 "F1" H 13038 8546 50  0000 L CNN
-F 1 "100mA" H 13038 8455 50  0000 L CNN
-F 2 "Fuse:Fuse_Littelfuse_395Series" H 13000 8300 50  0001 L CNN
-F 3 "~" H 12950 8500 50  0001 C CNN
-	1    12950 8500
+P 13500 9100
+F 0 "C4" H 13615 9146 50  0000 L CNN
+F 1 "4.7u" H 13615 9055 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Axial_L11.0mm_D5.0mm_P18.00mm_Horizontal" H 13538 8950 50  0001 C CNN
+F 3 "~" H 13500 9100 50  0001 C CNN
+	1    13500 9100
 	1    0    0    -1  
 $EndComp
 Text GLabel 13950 7000 0    50   Input ~ 0
@@ -4014,6 +3982,299 @@ F 3 "~" H 14000 6450 50  0001 C CNN
 	1    14000 6450
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:R R4
+U 1 1 61BD53DF
+P 15100 2450
+F 0 "R4" H 15170 2496 50  0000 L CNN
+F 1 "4.7k" H 15170 2405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 15030 2450 50  0001 C CNN
+F 3 "~" H 15100 2450 50  0001 C CNN
+	1    15100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 61BD593C
+P 15400 2450
+F 0 "R5" H 15470 2496 50  0000 L CNN
+F 1 "4.7k" H 15470 2405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 15330 2450 50  0001 C CNN
+F 3 "~" H 15400 2450 50  0001 C CNN
+	1    15400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR07
+U 1 1 61BD60CF
+P 15100 2300
+F 0 "#PWR07" H 15100 2150 50  0001 C CNN
+F 1 "VCC" H 15115 2473 50  0000 C CNN
+F 2 "" H 15100 2300 50  0001 C CNN
+F 3 "" H 15100 2300 50  0001 C CNN
+	1    15100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR08
+U 1 1 61BD6795
+P 15400 2300
+F 0 "#PWR08" H 15400 2150 50  0001 C CNN
+F 1 "VCC" H 15415 2473 50  0000 C CNN
+F 2 "" H 15400 2300 50  0001 C CNN
+F 3 "" H 15400 2300 50  0001 C CNN
+	1    15400 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 2650 15100 2650
+Wire Wire Line
+	15100 2650 15100 2600
+Wire Wire Line
+	14700 2750 15400 2750
+Wire Wire Line
+	15400 2750 15400 2600
+Wire Wire Line
+	15100 2650 15450 2650
+Connection ~ 15100 2650
+Wire Wire Line
+	15400 2750 15450 2750
+Connection ~ 15400 2750
+Text GLabel 15450 2650 2    50   Input ~ 0
+SDA
+Text GLabel 15450 2750 2    50   Input ~ 0
+SCL
+Text GLabel 12400 9000 0    50   Input ~ 0
+SDA
+Text GLabel 12900 9000 2    50   Input ~ 0
+SCL
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61F78669
+P 7500 9500
+F 0 "H1" H 7600 9546 50  0000 L CNN
+F 1 "TOP" H 7600 9455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7500 9500 50  0001 C CNN
+F 3 "~" H 7500 9500 50  0001 C CNN
+	1    7500 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61F7CD1E
+P 10500 9500
+F 0 "H2" H 10600 9546 50  0000 L CNN
+F 1 "TOP" H 10600 9455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10500 9500 50  0001 C CNN
+F 3 "~" H 10500 9500 50  0001 C CNN
+	1    10500 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61F7CF71
+P 10500 9850
+F 0 "H4" H 10600 9896 50  0000 L CNN
+F 1 "TOP" H 10600 9805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 10500 9850 50  0001 C CNN
+F 3 "~" H 10500 9850 50  0001 C CNN
+	1    10500 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 61F7D1CF
+P 7500 9850
+F 0 "H3" H 7600 9896 50  0000 L CNN
+F 1 "TOP" H 7600 9805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7500 9850 50  0001 C CNN
+F 3 "~" H 7500 9850 50  0001 C CNN
+	1    7500 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 61F83D8C
+P 8000 10050
+F 0 "H5" H 8100 10099 50  0000 L CNN
+F 1 "MATRIX" H 8100 10008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8000 10050 50  0001 C CNN
+F 3 "~" H 8000 10050 50  0001 C CNN
+	1    8000 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H9
+U 1 1 6203E4F6
+P 8000 10600
+F 0 "H9" H 8100 10649 50  0000 L CNN
+F 1 "MATRIX" H 8100 10558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8000 10600 50  0001 C CNN
+F 3 "~" H 8000 10600 50  0001 C CNN
+	1    8000 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 6203E7B5
+P 8000 10150
+F 0 "#PWR09" H 8000 9900 50  0001 C CNN
+F 1 "GND" H 8005 9977 50  0000 C CNN
+F 2 "" H 8000 10150 50  0001 C CNN
+F 3 "" H 8000 10150 50  0001 C CNN
+	1    8000 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 6203EB44
+P 8000 10700
+F 0 "#PWR013" H 8000 10450 50  0001 C CNN
+F 1 "GND" H 8005 10527 50  0000 C CNN
+F 2 "" H 8000 10700 50  0001 C CNN
+F 3 "" H 8000 10700 50  0001 C CNN
+	1    8000 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 620989E5
+P 8500 10050
+F 0 "H6" H 8600 10099 50  0000 L CNN
+F 1 "MATRIX" H 8600 10008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8500 10050 50  0001 C CNN
+F 3 "~" H 8500 10050 50  0001 C CNN
+	1    8500 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H10
+U 1 1 620989EB
+P 8500 10600
+F 0 "H10" H 8600 10649 50  0000 L CNN
+F 1 "MATRIX" H 8600 10558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8500 10600 50  0001 C CNN
+F 3 "~" H 8500 10600 50  0001 C CNN
+	1    8500 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 620989F1
+P 8500 10150
+F 0 "#PWR010" H 8500 9900 50  0001 C CNN
+F 1 "GND" H 8505 9977 50  0000 C CNN
+F 2 "" H 8500 10150 50  0001 C CNN
+F 3 "" H 8500 10150 50  0001 C CNN
+	1    8500 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR069
+U 1 1 620989F7
+P 8500 10700
+F 0 "#PWR069" H 8500 10450 50  0001 C CNN
+F 1 "GND" H 8505 10527 50  0000 C CNN
+F 2 "" H 8500 10700 50  0001 C CNN
+F 3 "" H 8500 10700 50  0001 C CNN
+	1    8500 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 620F22C5
+P 9500 10050
+F 0 "H7" H 9600 10099 50  0000 L CNN
+F 1 "MATRIX" H 9600 10008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9500 10050 50  0001 C CNN
+F 3 "~" H 9500 10050 50  0001 C CNN
+	1    9500 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H11
+U 1 1 620F22CB
+P 9500 10600
+F 0 "H11" H 9600 10649 50  0000 L CNN
+F 1 "MATRIX" H 9600 10558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9500 10600 50  0001 C CNN
+F 3 "~" H 9500 10600 50  0001 C CNN
+	1    9500 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 620F22D1
+P 9500 10150
+F 0 "#PWR011" H 9500 9900 50  0001 C CNN
+F 1 "GND" H 9505 9977 50  0000 C CNN
+F 2 "" H 9500 10150 50  0001 C CNN
+F 3 "" H 9500 10150 50  0001 C CNN
+	1    9500 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR071
+U 1 1 620F22D7
+P 9500 10700
+F 0 "#PWR071" H 9500 10450 50  0001 C CNN
+F 1 "GND" H 9505 10527 50  0000 C CNN
+F 2 "" H 9500 10700 50  0001 C CNN
+F 3 "" H 9500 10700 50  0001 C CNN
+	1    9500 10700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 620F22DD
+P 10000 10050
+F 0 "H8" H 10100 10099 50  0000 L CNN
+F 1 "MATRIX" H 10100 10008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10000 10050 50  0001 C CNN
+F 3 "~" H 10000 10050 50  0001 C CNN
+	1    10000 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H12
+U 1 1 620F22E3
+P 10000 10600
+F 0 "H12" H 10100 10649 50  0000 L CNN
+F 1 "MATRIX" H 10100 10558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10000 10600 50  0001 C CNN
+F 3 "~" H 10000 10600 50  0001 C CNN
+	1    10000 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 620F22E9
+P 10000 10150
+F 0 "#PWR012" H 10000 9900 50  0001 C CNN
+F 1 "GND" H 10005 9977 50  0000 C CNN
+F 2 "" H 10000 10150 50  0001 C CNN
+F 3 "" H 10000 10150 50  0001 C CNN
+	1    10000 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR072
+U 1 1 620F22EF
+P 10000 10700
+F 0 "#PWR072" H 10000 10450 50  0001 C CNN
+F 1 "GND" H 10005 10527 50  0000 C CNN
+F 2 "" H 10000 10700 50  0001 C CNN
+F 3 "" H 10000 10700 50  0001 C CNN
+	1    10000 10700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13500 8700 13500 8950
+Wire Wire Line
+	12900 8700 13500 8700
+Wire Wire Line
+	13500 8700 13500 8650
+Connection ~ 13500 8700
 Wire Bus Line
 	15050 3550 15050 3950
 Wire Bus Line
