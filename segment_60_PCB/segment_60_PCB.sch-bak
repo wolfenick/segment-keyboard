@@ -231,7 +231,7 @@ U 1 1 5F26E90B
 P 15150 1200
 F 0 "C1" H 15200 1300 50  0000 L CNN
 F 1 "100n" H 15200 1100 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P10.00mm_Horizontal" H 15188 1050 50  0001 C CNN
+F 2 "Segment_Footprints:C_Axial_L3.8mm_D2.6mm_P10.16mm_Horizontal" H 15188 1050 50  0001 C CNN
 F 3 "~" H 15150 1200 50  0001 C CNN
 	1    15150 1200
 	1    0    0    -1  
@@ -4093,17 +4093,6 @@ F 3 "~" H 7500 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 61F83D8C
-P 8000 10050
-F 0 "H5" H 8100 10099 50  0000 L CNN
-F 1 "MATRIX" H 8100 10008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8000 10050 50  0001 C CNN
-F 3 "~" H 8000 10050 50  0001 C CNN
-	1    8000 10050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H9
 U 1 1 6203E4F6
 P 8000 10600
@@ -4112,17 +4101,6 @@ F 1 "MATRIX" H 8100 10558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8000 10600 50  0001 C CNN
 F 3 "~" H 8000 10600 50  0001 C CNN
 	1    8000 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 6203E7B5
-P 8000 10150
-F 0 "#PWR09" H 8000 9900 50  0001 C CNN
-F 1 "GND" H 8005 9977 50  0000 C CNN
-F 2 "" H 8000 10150 50  0001 C CNN
-F 3 "" H 8000 10150 50  0001 C CNN
-	1    8000 10150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4137,17 +4115,6 @@ F 3 "" H 8000 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H6
-U 1 1 620989E5
-P 8500 10050
-F 0 "H6" H 8600 10099 50  0000 L CNN
-F 1 "MATRIX" H 8600 10008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8500 10050 50  0001 C CNN
-F 3 "~" H 8500 10050 50  0001 C CNN
-	1    8500 10050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H10
 U 1 1 620989EB
 P 8500 10600
@@ -4156,17 +4123,6 @@ F 1 "MATRIX" H 8600 10558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8500 10600 50  0001 C CNN
 F 3 "~" H 8500 10600 50  0001 C CNN
 	1    8500 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 620989F1
-P 8500 10150
-F 0 "#PWR010" H 8500 9900 50  0001 C CNN
-F 1 "GND" H 8505 9977 50  0000 C CNN
-F 2 "" H 8500 10150 50  0001 C CNN
-F 3 "" H 8500 10150 50  0001 C CNN
-	1    8500 10150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4181,17 +4137,6 @@ F 3 "" H 8500 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H7
-U 1 1 620F22C5
-P 9500 10050
-F 0 "H7" H 9600 10099 50  0000 L CNN
-F 1 "MATRIX" H 9600 10008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9500 10050 50  0001 C CNN
-F 3 "~" H 9500 10050 50  0001 C CNN
-	1    9500 10050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H11
 U 1 1 620F22CB
 P 9500 10600
@@ -4200,17 +4145,6 @@ F 1 "MATRIX" H 9600 10558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9500 10600 50  0001 C CNN
 F 3 "~" H 9500 10600 50  0001 C CNN
 	1    9500 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 620F22D1
-P 9500 10150
-F 0 "#PWR011" H 9500 9900 50  0001 C CNN
-F 1 "GND" H 9505 9977 50  0000 C CNN
-F 2 "" H 9500 10150 50  0001 C CNN
-F 3 "" H 9500 10150 50  0001 C CNN
-	1    9500 10150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4225,17 +4159,6 @@ F 3 "" H 9500 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H8
-U 1 1 620F22DD
-P 10000 10050
-F 0 "H8" H 10100 10099 50  0000 L CNN
-F 1 "MATRIX" H 10100 10008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10000 10050 50  0001 C CNN
-F 3 "~" H 10000 10050 50  0001 C CNN
-	1    10000 10050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H12
 U 1 1 620F22E3
 P 10000 10600
@@ -4244,17 +4167,6 @@ F 1 "MATRIX" H 10100 10558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10000 10600 50  0001 C CNN
 F 3 "~" H 10000 10600 50  0001 C CNN
 	1    10000 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 620F22E9
-P 10000 10150
-F 0 "#PWR012" H 10000 9900 50  0001 C CNN
-F 1 "GND" H 10005 9977 50  0000 C CNN
-F 2 "" H 10000 10150 50  0001 C CNN
-F 3 "" H 10000 10150 50  0001 C CNN
-	1    10000 10150
 	1    0    0    -1  
 $EndComp
 $Comp

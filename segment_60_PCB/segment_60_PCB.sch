@@ -1101,13 +1101,9 @@ Wire Wire Line
 Wire Wire Line
 	4750 2000 4750 3100
 Wire Wire Line
-	4650 2000 4650 3400
-Wire Wire Line
 	5050 3000 5050 3050
 Wire Wire Line
 	4950 3300 4950 3350
-Wire Wire Line
-	4850 3600 4850 3650
 Wire Wire Line
 	6700 2200 6700 2000
 Wire Wire Line
@@ -1558,8 +1554,6 @@ Wire Wire Line
 Wire Wire Line
 	3300 3350 4950 3350
 Wire Wire Line
-	3200 3650 4850 3650
-Wire Wire Line
 	6900 2450 8550 2450
 Wire Wire Line
 	6800 2750 8450 2750
@@ -1582,7 +1576,6 @@ Connection ~ 3300 3350
 Connection ~ 3400 3050
 Connection ~ 3500 2750
 Connection ~ 3600 2450
-Connection ~ 4850 3650
 Connection ~ 4950 3350
 Connection ~ 5050 3050
 Connection ~ 5150 2750
@@ -1654,14 +1647,14 @@ $EndComp
 $Comp
 L Switch:SW_Push_45deg SW59
 U 1 1 66417B31
-P 4750 3500
+P 6400 3500
 AR Path="/66417B31" Ref="SW59"  Part="1" 
 AR Path="/61CA4571/66417B31" Ref="SW?"  Part="1" 
-F 0 "SW59" H 4950 3400 50  0000 C CNN
-F 1 "SW_Push_45deg" H 4750 3690 50  0001 C CNN
-F 2 "Segment_Footprints:Segment_MX_1.50u_PCB" H 4750 3500 50  0001 C CNN
-F 3 "~" H 4750 3500 50  0001 C CNN
-	1    4750 3500
+F 0 "SW59" H 6600 3400 50  0000 C CNN
+F 1 "SW_Push_45deg" H 6400 3690 50  0001 C CNN
+F 2 "Segment_Footprints:Segment_MX_1.50u_PCB" H 6400 3500 50  0001 C CNN
+F 3 "~" H 6400 3500 50  0001 C CNN
+	1    6400 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3507,16 +3500,11 @@ Wire Wire Line
 Wire Wire Line
 	4850 6850 8150 6850
 Wire Wire Line
-	4850 3650 9800 3650
-Wire Wire Line
 	3000 5200 3000 5250
 NoConn ~ 3000 5250
 Wire Wire Line
 	6300 5200 6300 5250
 NoConn ~ 6300 5250
-Wire Wire Line
-	6300 2000 6300 2050
-NoConn ~ 6300 2050
 Wire Wire Line
 	7950 2000 7950 2050
 NoConn ~ 7950 2050
@@ -4093,17 +4081,6 @@ F 3 "~" H 7500 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H5
-U 1 1 61F83D8C
-P 8000 10050
-F 0 "H5" H 8100 10099 50  0000 L CNN
-F 1 "MATRIX" H 8100 10008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8000 10050 50  0001 C CNN
-F 3 "~" H 8000 10050 50  0001 C CNN
-	1    8000 10050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H9
 U 1 1 6203E4F6
 P 8000 10600
@@ -4112,17 +4089,6 @@ F 1 "MATRIX" H 8100 10558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8000 10600 50  0001 C CNN
 F 3 "~" H 8000 10600 50  0001 C CNN
 	1    8000 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 6203E7B5
-P 8000 10150
-F 0 "#PWR09" H 8000 9900 50  0001 C CNN
-F 1 "GND" H 8005 9977 50  0000 C CNN
-F 2 "" H 8000 10150 50  0001 C CNN
-F 3 "" H 8000 10150 50  0001 C CNN
-	1    8000 10150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4137,17 +4103,6 @@ F 3 "" H 8000 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H6
-U 1 1 620989E5
-P 8500 10050
-F 0 "H6" H 8600 10099 50  0000 L CNN
-F 1 "MATRIX" H 8600 10008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8500 10050 50  0001 C CNN
-F 3 "~" H 8500 10050 50  0001 C CNN
-	1    8500 10050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H10
 U 1 1 620989EB
 P 8500 10600
@@ -4156,17 +4111,6 @@ F 1 "MATRIX" H 8600 10558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8500 10600 50  0001 C CNN
 F 3 "~" H 8500 10600 50  0001 C CNN
 	1    8500 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 620989F1
-P 8500 10150
-F 0 "#PWR010" H 8500 9900 50  0001 C CNN
-F 1 "GND" H 8505 9977 50  0000 C CNN
-F 2 "" H 8500 10150 50  0001 C CNN
-F 3 "" H 8500 10150 50  0001 C CNN
-	1    8500 10150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4181,17 +4125,6 @@ F 3 "" H 8500 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H7
-U 1 1 620F22C5
-P 9500 10050
-F 0 "H7" H 9600 10099 50  0000 L CNN
-F 1 "MATRIX" H 9600 10008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9500 10050 50  0001 C CNN
-F 3 "~" H 9500 10050 50  0001 C CNN
-	1    9500 10050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H11
 U 1 1 620F22CB
 P 9500 10600
@@ -4200,17 +4133,6 @@ F 1 "MATRIX" H 9600 10558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9500 10600 50  0001 C CNN
 F 3 "~" H 9500 10600 50  0001 C CNN
 	1    9500 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 620F22D1
-P 9500 10150
-F 0 "#PWR011" H 9500 9900 50  0001 C CNN
-F 1 "GND" H 9505 9977 50  0000 C CNN
-F 2 "" H 9500 10150 50  0001 C CNN
-F 3 "" H 9500 10150 50  0001 C CNN
-	1    9500 10150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4225,17 +4147,6 @@ F 3 "" H 9500 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H8
-U 1 1 620F22DD
-P 10000 10050
-F 0 "H8" H 10100 10099 50  0000 L CNN
-F 1 "MATRIX" H 10100 10008 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10000 10050 50  0001 C CNN
-F 3 "~" H 10000 10050 50  0001 C CNN
-	1    10000 10050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H12
 U 1 1 620F22E3
 P 10000 10600
@@ -4244,17 +4155,6 @@ F 1 "MATRIX" H 10100 10558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10000 10600 50  0001 C CNN
 F 3 "~" H 10000 10600 50  0001 C CNN
 	1    10000 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 620F22E9
-P 10000 10150
-F 0 "#PWR012" H 10000 9900 50  0001 C CNN
-F 1 "GND" H 10005 9977 50  0000 C CNN
-F 2 "" H 10000 10150 50  0001 C CNN
-F 3 "" H 10000 10150 50  0001 C CNN
-	1    10000 10150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4275,6 +4175,15 @@ Wire Wire Line
 Wire Wire Line
 	13500 8700 13500 8650
 Connection ~ 13500 8700
+Wire Wire Line
+	3200 3650 6500 3650
+Wire Wire Line
+	4650 2000 4650 2050
+NoConn ~ 4650 2050
+Wire Wire Line
+	6300 2000 6300 3400
+Wire Wire Line
+	6500 3600 6500 3650
 Wire Bus Line
 	15050 3550 15050 3950
 Wire Bus Line
@@ -4289,4 +4198,7 @@ Wire Bus Line
 	950  3950 10950 3950
 Wire Bus Line
 	2850 8200 2850 9000
+Connection ~ 6500 3650
+Wire Wire Line
+	6500 3650 9800 3650
 $EndSCHEMATC

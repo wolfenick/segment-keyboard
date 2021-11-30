@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Segment_Symbols)(type Legacy)(uri ${KIPRJMOD}/../common/Segment_Symbols.lib)(options "")(descr ""))
+  (lib (name segment_60_PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/segment_60_PCB-rescue.lib)(options "")(descr ""))
 )
