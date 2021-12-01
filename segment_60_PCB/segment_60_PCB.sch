@@ -537,7 +537,7 @@ Connection ~ 2100 7850
 Wire Wire Line
 	2100 7850 3000 7850
 $Comp
-L Segment_Symbols:74HC365 U4
+L Segment_Symbols:74HC365_A U4
 U 1 1 648384BE
 P 1450 1600
 AR Path="/648384BE" Ref="U4"  Part="1" 
@@ -658,7 +658,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 2200 1750 2000
 $Comp
-L Segment_Symbols:74HC365 U5
+L Segment_Symbols:74HC365_A U5
 U 1 1 64838502
 P 3100 1600
 AR Path="/64838502" Ref="U5"  Part="1" 
@@ -851,7 +851,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 3650 3200 3650
 $Comp
-L Segment_Symbols:74HC365 U6
+L Segment_Symbols:74HC365_A U6
 U 1 1 6540ED25
 P 4750 1600
 AR Path="/6540ED25" Ref="U6"  Part="1" 
@@ -972,7 +972,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 2200 5050 2000
 $Comp
-L Segment_Symbols:74HC365 U7
+L Segment_Symbols:74HC365_A U7
 U 1 1 6540ED69
 P 6400 1600
 AR Path="/6540ED69" Ref="U7"  Part="1" 
@@ -1129,7 +1129,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 3350 6600 3350
 $Comp
-L Segment_Symbols:74HC365 U8
+L Segment_Symbols:74HC365_A U8
 U 1 1 65480DF8
 P 8050 1600
 AR Path="/65480DF8" Ref="U8"  Part="1" 
@@ -1250,7 +1250,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 2200 8350 2000
 $Comp
-L Segment_Symbols:74HC365 U9
+L Segment_Symbols:74HC365_A U9
 U 1 1 65480E3C
 P 9700 1600
 AR Path="/65480E3C" Ref="U9"  Part="1" 
@@ -1411,7 +1411,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 3350 9900 3350
 $Comp
-L Segment_Symbols:74HC365 U10
+L Segment_Symbols:74HC365_A U10
 U 1 1 6550EB54
 P 11350 1600
 AR Path="/6550EB54" Ref="U10"  Part="1" 
@@ -1983,7 +1983,7 @@ F 3 "~" H 11750 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Segment_Symbols:74HC365 U11
+L Segment_Symbols:74HC365_A U11
 U 1 1 667D6AF3
 P 1450 4800
 AR Path="/667D6AF3" Ref="U11"  Part="1" 
@@ -2102,7 +2102,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 5400 1750 5200
 $Comp
-L Segment_Symbols:74HC365 U12
+L Segment_Symbols:74HC365_C U12
 U 1 1 667D6B31
 P 3100 4800
 AR Path="/667D6B31" Ref="U12"  Part="1" 
@@ -2287,7 +2287,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 6550 3300 6550
 $Comp
-L Segment_Symbols:74HC365 U13
+L Segment_Symbols:74HC365_B U13
 U 1 1 667D6B92
 P 4750 4800
 AR Path="/667D6B92" Ref="U13"  Part="1" 
@@ -2406,7 +2406,7 @@ Wire Wire Line
 Wire Wire Line
 	5050 5400 5050 5200
 $Comp
-L Segment_Symbols:74HC365 U14
+L Segment_Symbols:74HC365_C U14
 U 1 1 667D6BD0
 P 6400 4800
 AR Path="/667D6BD0" Ref="U14"  Part="1" 
@@ -2565,7 +2565,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 6550 6600 6550
 $Comp
-L Segment_Symbols:74HC365 U15
+L Segment_Symbols:74HC365_B U15
 U 1 1 667D6C25
 P 8050 4800
 AR Path="/667D6C25" Ref="U15"  Part="1" 
@@ -2684,7 +2684,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 5400 8350 5200
 $Comp
-L Segment_Symbols:74HC365 U16
+L Segment_Symbols:74HC365_B U16
 U 1 1 667D6C63
 P 9700 4800
 AR Path="/667D6C63" Ref="U16"  Part="1" 
@@ -2849,7 +2849,7 @@ Wire Wire Line
 Wire Wire Line
 	8150 6850 9800 6850
 $Comp
-L Segment_Symbols:74HC365 U17
+L Segment_Symbols:74HC365_D U17
 U 1 1 667D6CB8
 P 11350 4800
 AR Path="/667D6CB8" Ref="U17"  Part="1" 
@@ -4184,6 +4184,9 @@ Wire Wire Line
 	6300 2000 6300 3400
 Wire Wire Line
 	6500 3600 6500 3650
+Connection ~ 6500 3650
+Wire Wire Line
+	6500 3650 9800 3650
 Wire Bus Line
 	15050 3550 15050 3950
 Wire Bus Line
@@ -4198,7 +4201,4 @@ Wire Bus Line
 	950  3950 10950 3950
 Wire Bus Line
 	2850 8200 2850 9000
-Connection ~ 6500 3650
-Wire Wire Line
-	6500 3650 9800 3650
 $EndSCHEMATC
