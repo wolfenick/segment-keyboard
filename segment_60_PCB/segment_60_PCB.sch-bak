@@ -49,8 +49,6 @@ Entry Wire Line
 	2750 8200 2850 8300
 Entry Wire Line
 	2750 8100 2850 8200
-Text Label 5150 8600 0    50   ~ 0
-COL13
 Text Label 5150 8500 0    50   ~ 0
 COL12
 Text Label 5150 8400 0    50   ~ 0
@@ -4037,18 +4035,7 @@ SDA
 Text GLabel 12900 9000 2    50   Input ~ 0
 SCL
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 61F78669
-P 7500 9500
-F 0 "H1" H 7600 9546 50  0000 L CNN
-F 1 "TOP" H 7600 9455 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 7500 9500 50  0001 C CNN
-F 3 "~" H 7500 9500 50  0001 C CNN
-	1    7500 9500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole_Pad H2
 U 1 1 61F7CD1E
 P 10500 9500
 F 0 "H2" H 10600 9546 50  0000 L CNN
@@ -4059,7 +4046,7 @@ F 3 "~" H 10500 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole_Pad H4
 U 1 1 61F7CF71
 P 10500 9850
 F 0 "H4" H 10600 9896 50  0000 L CNN
@@ -4070,21 +4057,10 @@ F 3 "~" H 10500 9850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
-U 1 1 61F7D1CF
-P 7500 9850
-F 0 "H3" H 7600 9896 50  0000 L CNN
-F 1 "TOP" H 7600 9805 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 7500 9850 50  0001 C CNN
-F 3 "~" H 7500 9850 50  0001 C CNN
-	1    7500 9850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H9
+L Mechanical:MountingHole_Pad H5
 U 1 1 6203E4F6
 P 8000 10600
-F 0 "H9" H 8100 10649 50  0000 L CNN
+F 0 "H5" H 8100 10649 50  0000 L CNN
 F 1 "MATRIX" H 8100 10558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8000 10600 50  0001 C CNN
 F 3 "~" H 8000 10600 50  0001 C CNN
@@ -4103,10 +4079,10 @@ F 3 "" H 8000 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H10
+L Mechanical:MountingHole_Pad H6
 U 1 1 620989EB
 P 8500 10600
-F 0 "H10" H 8600 10649 50  0000 L CNN
+F 0 "H6" H 8600 10649 50  0000 L CNN
 F 1 "MATRIX" H 8600 10558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 8500 10600 50  0001 C CNN
 F 3 "~" H 8500 10600 50  0001 C CNN
@@ -4125,10 +4101,10 @@ F 3 "" H 8500 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H11
+L Mechanical:MountingHole_Pad H7
 U 1 1 620F22CB
 P 9500 10600
-F 0 "H11" H 9600 10649 50  0000 L CNN
+F 0 "H7" H 9600 10649 50  0000 L CNN
 F 1 "MATRIX" H 9600 10558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 9500 10600 50  0001 C CNN
 F 3 "~" H 9500 10600 50  0001 C CNN
@@ -4147,10 +4123,10 @@ F 3 "" H 9500 10700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H12
+L Mechanical:MountingHole_Pad H8
 U 1 1 620F22E3
 P 10000 10600
-F 0 "H12" H 10100 10649 50  0000 L CNN
+F 0 "H8" H 10100 10649 50  0000 L CNN
 F 1 "MATRIX" H 10100 10558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10000 10600 50  0001 C CNN
 F 3 "~" H 10000 10600 50  0001 C CNN
@@ -4187,6 +4163,23 @@ Wire Wire Line
 Connection ~ 6500 3650
 Wire Wire Line
 	6500 3650 9800 3650
+Text Label 5150 8600 0    50   ~ 0
+COL13
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 61F7D1CF
+P 7500 9850
+F 0 "H3" H 7600 9896 50  0000 L CNN
+F 1 "TOP" H 7600 9805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7500 9850 50  0001 C CNN
+F 3 "~" H 7500 9850 50  0001 C CNN
+	1    7500 9850
+	1    0    0    -1  
+$EndComp
+Wire Bus Line
+	950  3950 10950 3950
+Wire Bus Line
+	950  750  10950 750 
 Wire Bus Line
 	15050 3550 15050 3950
 Wire Bus Line
@@ -4194,11 +4187,18 @@ Wire Bus Line
 Wire Bus Line
 	1350 7900 1350 8500
 Wire Bus Line
-	5500 8200 5500 8800
-Wire Bus Line
-	950  750  10950 750 
-Wire Bus Line
-	950  3950 10950 3950
-Wire Bus Line
 	2850 8200 2850 9000
+Wire Bus Line
+	5500 8200 5500 8800
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 61F78669
+P 7500 9500
+F 0 "H1" H 7600 9546 50  0000 L CNN
+F 1 "TOP" H 7600 9455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7500 9500 50  0001 C CNN
+F 3 "~" H 7500 9500 50  0001 C CNN
+	1    7500 9500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
