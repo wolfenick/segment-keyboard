@@ -384,7 +384,7 @@
       "idf": "",
       "netlist": "segment_60_PCB.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../production_files/segment_60_PCB.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
