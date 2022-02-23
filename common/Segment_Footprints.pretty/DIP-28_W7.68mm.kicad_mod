@@ -1,6 +1,6 @@
 (footprint "DIP-28_W7.68mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 620F0864)
+  (tedit 62106754)
   (attr through_hole)
   (fp_text reference "REF**" (at 3.81 -2.286 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.2)))
@@ -60,4 +60,14 @@
   (pad "26" thru_hole oval (at 7.62 5.08) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp e181d565-9586-4bf6-bb4f-867314a39c15))
   (pad "27" thru_hole oval (at 7.62 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 06632abc-f3d9-417a-b807-733a16e395ee))
   (pad "28" thru_hole oval (at 7.62 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 54d2adcd-b06f-497d-b942-2eb0665248be))
+  (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W7.62mm_Socket.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W7.62mm.wrl"
+    (offset (xyz 0 0 4))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
